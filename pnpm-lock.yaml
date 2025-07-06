@@ -12,14 +12,14 @@ importers:
         specifier: ^1.2.2
         version: 1.2.2
       '@iconify-json/lucide':
-        specifier: ^1.2.54
-        version: 1.2.54
+        specifier: ^1.2.55
+        version: 1.2.55
       '@iconify-json/simple-icons':
         specifier: ^1.2.41
         version: 1.2.41
       '@nuxt/ui-pro':
         specifier: ^3.2.0
-        version: 3.2.0(@babel/parser@7.27.7)(db0@0.3.2(drizzle-orm@0.44.2(@cloudflare/workers-types@4.20250701.0)(kysely@0.28.2)(pg@8.16.3)))(embla-carousel@8.6.0)(encoding@0.1.13)(ioredis@5.6.1)(jwt-decode@4.0.0)(magicast@0.3.5)(typescript@5.8.3)(vite@6.3.5(@types/node@24.0.8)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.43.1)(yaml@2.8.0))(vue-router@4.5.1(vue@3.5.17(typescript@5.8.3)))(vue@3.5.17(typescript@5.8.3))(zod@3.25.71)
+        version: 3.2.0(@babel/parser@7.27.7)(db0@0.3.2(drizzle-orm@0.44.2(@cloudflare/workers-types@4.20250701.0)(kysely@0.28.2)(pg@8.16.3)))(embla-carousel@8.6.0)(encoding@0.1.13)(ioredis@5.6.1)(jwt-decode@4.0.0)(magicast@0.3.5)(typescript@5.8.3)(vite@6.3.5(@types/node@24.0.8)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.43.1)(yaml@2.8.0))(vue-router@4.5.1(vue@3.5.17(typescript@5.8.3)))(vue@3.5.17(typescript@5.8.3))(zod@3.25.74)
       '@shelve/cli':
         specifier: ^4.1.6
         version: 4.1.6(magicast@0.3.5)
@@ -48,8 +48,8 @@ importers:
         specifier: ^4.5.1
         version: 4.5.1(vue@3.5.17(typescript@5.8.3))
       zod:
-        specifier: ^3.25.71
-        version: 3.25.71
+        specifier: ^3.25.74
+        version: 3.25.74
     devDependencies:
       '@hrcd/eslint-config':
         specifier: ^3.0.3
@@ -875,8 +875,8 @@ packages:
   '@iconify-json/heroicons@1.2.2':
     resolution: {integrity: sha512-qoW4pXr5kTTL6juEjgTs83OJIwpePu7q1tdtKVEdj+i0zyyVHgg/dd9grsXJQnpTpBt6/VwNjrXBvFjRsKPENg==}
 
-  '@iconify-json/lucide@1.2.54':
-    resolution: {integrity: sha512-sUHvGWE0WI+XVew//03Y1jw7AFRv57X1BFxrLBdjwt9xccr4Y2JartcWXM/Zeinxrr3ZgBt0n16WkeN/fx9QAQ==}
+  '@iconify-json/lucide@1.2.55':
+    resolution: {integrity: sha512-JXEV8emCxVZpdfV7d4X+nhn3cp0HU06apijGoxOHpR9CQB2jERqUHpXR6g1p0tEh2IZk84QJBCujG0Ei8XI1Dg==}
 
   '@iconify-json/simple-icons@1.2.41':
     resolution: {integrity: sha512-4tt29cKzNsxvt6rjAOVhEgpZV0L8jleTDTMdtvIJjF14Afp9aH8peuwGYyX35l6idfFwuzbvjSVfVyVjJtfmYA==}
@@ -5824,33 +5824,33 @@ packages:
   zod@3.22.3:
     resolution: {integrity: sha512-EjIevzuJRiRPbVH4mGc8nApb/lVLKVpmUhAaR5R5doKGfAnGJ6Gr3CViAVjP+4FWSxCsybeWQdcgCtbX+7oZug==}
 
-  zod@3.25.71:
-    resolution: {integrity: sha512-BsBc/NPk7h8WsUWYWYL+BajcJPY8YhjelaWu2NMLuzgraKAz4Lb4/6K11g9jpuDetjMiqhZ6YaexFLOC0Ogi3Q==}
+  zod@3.25.74:
+    resolution: {integrity: sha512-J8poo92VuhKjNknViHRAIuuN6li/EwFbAC8OedzI8uxpEPGiXHGQu9wemIAioIpqgfB4SySaJhdk0mH5Y4ICBg==}
 
 snapshots:
 
-  '@ai-sdk/provider-utils@2.2.8(zod@3.25.71)':
+  '@ai-sdk/provider-utils@2.2.8(zod@3.25.74)':
     dependencies:
       '@ai-sdk/provider': 1.1.3
       nanoid: 3.3.11
       secure-json-parse: 2.7.0
-      zod: 3.25.71
+      zod: 3.25.74
 
   '@ai-sdk/provider@1.1.3':
     dependencies:
       json-schema: 0.4.0
 
-  '@ai-sdk/ui-utils@1.2.11(zod@3.25.71)':
+  '@ai-sdk/ui-utils@1.2.11(zod@3.25.74)':
     dependencies:
       '@ai-sdk/provider': 1.1.3
-      '@ai-sdk/provider-utils': 2.2.8(zod@3.25.71)
-      zod: 3.25.71
-      zod-to-json-schema: 3.24.6(zod@3.25.71)
+      '@ai-sdk/provider-utils': 2.2.8(zod@3.25.74)
+      zod: 3.25.74
+      zod-to-json-schema: 3.24.6(zod@3.25.74)
 
-  '@ai-sdk/vue@1.2.12(vue@3.5.17(typescript@5.8.3))(zod@3.25.71)':
+  '@ai-sdk/vue@1.2.12(vue@3.5.17(typescript@5.8.3))(zod@3.25.74)':
     dependencies:
-      '@ai-sdk/provider-utils': 2.2.8(zod@3.25.71)
-      '@ai-sdk/ui-utils': 1.2.11(zod@3.25.71)
+      '@ai-sdk/provider-utils': 2.2.8(zod@3.25.74)
+      '@ai-sdk/ui-utils': 1.2.11(zod@3.25.74)
       swrv: 1.1.0(vue@3.5.17(typescript@5.8.3))
     optionalDependencies:
       vue: 3.5.17(typescript@5.8.3)
@@ -6495,7 +6495,7 @@ snapshots:
     dependencies:
       '@iconify/types': 2.0.0
 
-  '@iconify-json/lucide@1.2.54':
+  '@iconify-json/lucide@1.2.55':
     dependencies:
       '@iconify/types': 2.0.0
 
@@ -6767,7 +6767,7 @@ snapshots:
       unixify: 1.0.0
       urlpattern-polyfill: 8.0.2
       yargs: 17.7.2
-      zod: 3.25.71
+      zod: 3.25.74
     transitivePeerDependencies:
       - encoding
       - rollup
@@ -7025,12 +7025,12 @@ snapshots:
     transitivePeerDependencies:
       - magicast
 
-  '@nuxt/ui-pro@3.2.0(@babel/parser@7.27.7)(db0@0.3.2(drizzle-orm@0.44.2(@cloudflare/workers-types@4.20250701.0)(kysely@0.28.2)(pg@8.16.3)))(embla-carousel@8.6.0)(encoding@0.1.13)(ioredis@5.6.1)(jwt-decode@4.0.0)(magicast@0.3.5)(typescript@5.8.3)(vite@6.3.5(@types/node@24.0.8)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.43.1)(yaml@2.8.0))(vue-router@4.5.1(vue@3.5.17(typescript@5.8.3)))(vue@3.5.17(typescript@5.8.3))(zod@3.25.71)':
+  '@nuxt/ui-pro@3.2.0(@babel/parser@7.27.7)(db0@0.3.2(drizzle-orm@0.44.2(@cloudflare/workers-types@4.20250701.0)(kysely@0.28.2)(pg@8.16.3)))(embla-carousel@8.6.0)(encoding@0.1.13)(ioredis@5.6.1)(jwt-decode@4.0.0)(magicast@0.3.5)(typescript@5.8.3)(vite@6.3.5(@types/node@24.0.8)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.43.1)(yaml@2.8.0))(vue-router@4.5.1(vue@3.5.17(typescript@5.8.3)))(vue@3.5.17(typescript@5.8.3))(zod@3.25.74)':
     dependencies:
-      '@ai-sdk/vue': 1.2.12(vue@3.5.17(typescript@5.8.3))(zod@3.25.71)
+      '@ai-sdk/vue': 1.2.12(vue@3.5.17(typescript@5.8.3))(zod@3.25.74)
       '@nuxt/kit': 3.17.6(magicast@0.3.5)
       '@nuxt/schema': 3.17.6
-      '@nuxt/ui': 3.2.0(@babel/parser@7.27.7)(db0@0.3.2(drizzle-orm@0.44.2(@cloudflare/workers-types@4.20250701.0)(kysely@0.28.2)(pg@8.16.3)))(embla-carousel@8.6.0)(encoding@0.1.13)(ioredis@5.6.1)(jwt-decode@4.0.0)(magicast@0.3.5)(typescript@5.8.3)(vite@6.3.5(@types/node@24.0.8)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.43.1)(yaml@2.8.0))(vue-router@4.5.1(vue@3.5.17(typescript@5.8.3)))(vue@3.5.17(typescript@5.8.3))(zod@3.25.71)
+      '@nuxt/ui': 3.2.0(@babel/parser@7.27.7)(db0@0.3.2(drizzle-orm@0.44.2(@cloudflare/workers-types@4.20250701.0)(kysely@0.28.2)(pg@8.16.3)))(embla-carousel@8.6.0)(encoding@0.1.13)(ioredis@5.6.1)(jwt-decode@4.0.0)(magicast@0.3.5)(typescript@5.8.3)(vite@6.3.5(@types/node@24.0.8)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.43.1)(yaml@2.8.0))(vue-router@4.5.1(vue@3.5.17(typescript@5.8.3)))(vue@3.5.17(typescript@5.8.3))(zod@3.25.74)
       '@standard-schema/spec': 1.0.0
       '@vueuse/core': 13.5.0(vue@3.5.17(typescript@5.8.3))
       consola: 3.4.2
@@ -7049,7 +7049,7 @@ snapshots:
       unplugin-auto-import: 19.3.0(@nuxt/kit@3.17.6(magicast@0.3.5))(@vueuse/core@13.5.0(vue@3.5.17(typescript@5.8.3)))
       unplugin-vue-components: 28.8.0(@babel/parser@7.27.7)(@nuxt/kit@3.17.6(magicast@0.3.5))(vue@3.5.17(typescript@5.8.3))
     optionalDependencies:
-      zod: 3.25.71
+      zod: 3.25.74
     transitivePeerDependencies:
       - '@azure/app-configuration'
       - '@azure/cosmos'
@@ -7093,7 +7093,7 @@ snapshots:
       - vue
       - vue-router
 
-  '@nuxt/ui@3.2.0(@babel/parser@7.27.7)(db0@0.3.2(drizzle-orm@0.44.2(@cloudflare/workers-types@4.20250701.0)(kysely@0.28.2)(pg@8.16.3)))(embla-carousel@8.6.0)(encoding@0.1.13)(ioredis@5.6.1)(jwt-decode@4.0.0)(magicast@0.3.5)(typescript@5.8.3)(vite@6.3.5(@types/node@24.0.8)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.43.1)(yaml@2.8.0))(vue-router@4.5.1(vue@3.5.17(typescript@5.8.3)))(vue@3.5.17(typescript@5.8.3))(zod@3.25.71)':
+  '@nuxt/ui@3.2.0(@babel/parser@7.27.7)(db0@0.3.2(drizzle-orm@0.44.2(@cloudflare/workers-types@4.20250701.0)(kysely@0.28.2)(pg@8.16.3)))(embla-carousel@8.6.0)(encoding@0.1.13)(ioredis@5.6.1)(jwt-decode@4.0.0)(magicast@0.3.5)(typescript@5.8.3)(vite@6.3.5(@types/node@24.0.8)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.43.1)(yaml@2.8.0))(vue-router@4.5.1(vue@3.5.17(typescript@5.8.3)))(vue@3.5.17(typescript@5.8.3))(zod@3.25.74)':
     dependencies:
       '@iconify/vue': 5.0.0(vue@3.5.17(typescript@5.8.3))
       '@internationalized/date': 3.8.2
@@ -7140,7 +7140,7 @@ snapshots:
       vue-component-type-helpers: 2.2.10
     optionalDependencies:
       vue-router: 4.5.1(vue@3.5.17(typescript@5.8.3))
-      zod: 3.25.71
+      zod: 3.25.74
     transitivePeerDependencies:
       - '@azure/app-configuration'
       - '@azure/cosmos'
@@ -8286,7 +8286,7 @@ snapshots:
       jose: 6.0.11
       kysely: 0.28.2
       nanostores: 0.11.4
-      zod: 3.25.71
+      zod: 3.25.74
 
   better-call@1.0.10:
     dependencies:
@@ -12082,10 +12082,10 @@ snapshots:
       compress-commons: 6.0.2
       readable-stream: 4.7.0
 
-  zod-to-json-schema@3.24.6(zod@3.25.71):
+  zod-to-json-schema@3.24.6(zod@3.25.74):
     dependencies:
-      zod: 3.25.71
+      zod: 3.25.74
 
   zod@3.22.3: {}
 
-  zod@3.25.71: {}
+  zod@3.25.74: {}
