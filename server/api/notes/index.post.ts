@@ -1,8 +1,8 @@
 export default eventHandler(async (event) => {
   const { user, team } = await requireTeam(event)
   const { title, content } = await readBody(event)
-  const { notes } = schema
-  const note = await db.insert(notes).values({
+
+  const note = await db.insert(schema.notes).values({
     title,
     content,
     userId: user.id,

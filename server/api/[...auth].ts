@@ -1,1 +1,1 @@
-export default eventHandler(event => serverAuth().handler(toWebRequest(event)))
+export default eventHandler(event => auth.handler(toWebRequest(event)))

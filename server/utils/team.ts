@@ -14,7 +14,7 @@ export async function requireTeam(event: H3Event): Promise<{
     organization: Organization
   }
 }> {
-  const sessionData = await serverAuth().api.getSession({
+  const sessionData = await auth.api.getSession({
     headers: getHeaders(event) as any
   })
 
