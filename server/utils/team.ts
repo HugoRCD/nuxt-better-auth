@@ -1,6 +1,4 @@
-import { eq, and } from 'drizzle-orm'
 import type { H3Event } from 'h3'
-import { Organization } from './drizzle'
 
 export async function requireTeam(event: H3Event): Promise<{
   user: {
@@ -29,7 +27,7 @@ export async function requireTeam(event: H3Event): Promise<{
 
   const { user } = sessionData
   const activeOrganizationId = getCookie(event, 'activeOrganizationId')
-  
+
   if (!activeOrganizationId) {
     throw createError({
       statusCode: 400,
@@ -37,8 +35,6 @@ export async function requireTeam(event: H3Event): Promise<{
     })
   }
 
-  const db = useDrizzle()
-  
   const member = await db.query.member.findFirst({
     where: (member, { eq }) => and(
       eq(member.organizationId, activeOrganizationId),
@@ -58,6 +54,8 @@ export async function requireTeam(event: H3Event): Promise<{
 
   return {
     user,
-    team: member.organization
+    team: {
+      organization: member.organization
+    }
   }
 }

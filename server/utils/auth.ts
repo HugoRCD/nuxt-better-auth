@@ -1,9 +1,7 @@
 import { betterAuth } from 'better-auth'
 import { anonymous, admin, organization } from 'better-auth/plugins'
 import { drizzleAdapter } from 'better-auth/adapters/drizzle'
-import { sql, eq, and, ne } from 'drizzle-orm'
-import * as schema from '../database/schema'
-import { useDrizzle } from './drizzle'
+import { db, schema } from 'hub:database'
 
 let _auth: ReturnType<typeof betterAuth>
 
@@ -11,7 +9,7 @@ export function serverAuth() {
   if (!_auth) {
     _auth = betterAuth({
       database: drizzleAdapter(
-        useDrizzle(),
+        db,
         {
           provider: 'pg',
           schema

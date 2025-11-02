@@ -1,6 +1,3 @@
-import { eq, and } from 'drizzle-orm'
-import { notes } from '../../../database/schema'
-
 export default eventHandler(async (event) => {
   const { user, team } = await requireTeam(event)
   const id = parseInt(getRouterParam(event, 'id') as string)
@@ -12,12 +9,14 @@ export default eventHandler(async (event) => {
     })
   }
 
-  const deletedNote = await useDrizzle()
+  const { notes } = schema
+
+  const deletedNote = await db
     .delete(notes)
     .where(
       and(
         eq(notes.id, id),
-        eq(notes.organizationId, team.id),
+        eq(notes.organizationId, team.organization.id),
         eq(notes.userId, user.id)
       )
     )
