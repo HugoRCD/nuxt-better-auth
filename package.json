@@ -9,10 +9,9 @@
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "auth:schema": "npx @better-auth/cli generate --config server/utils/auth.ts --output server/database/auth.ts -y && eslint . --fix",
-    "db:generate": "drizzle-kit generate --config ./server/database/drizzle.config.ts",
-    "db:migrate": "drizzle-kit migrate --config ./server/database/drizzle.config.ts",
-    "db:push": "drizzle-kit push --config ./server/database/drizzle.config.ts"
+    "auth:schema": "npx @better-auth/cli generate --config server/utils/auth.ts --output server/database/schema/auth.ts -y && eslint . --fix",
+    "db:generate": "nuxt hub database generate",
+    "db:migrate": "nuxt hub database migrate"
   },
   "dependencies": {
     "@electric-sql/pglite": "^0.3.11",

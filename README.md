@@ -90,12 +90,6 @@ Run migrations to update your database:
 pnpm db:migrate
 ```
 
-For development, you can also push schema changes directly:
-
-```bash
-pnpm db:push
-```
-
 ## Production
 
 Build the application for production:
