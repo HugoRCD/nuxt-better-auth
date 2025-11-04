@@ -1,9 +1,9 @@
 import { pgTable, text, timestamp, boolean, bigint } from 'drizzle-orm/pg-core'
 import { relations } from 'drizzle-orm'
 
-import { user, organization, member } from './auth'
-
-export * from './auth'
+// TODO: will be fixed in upcoming nuxthub version
+// @ts-expect-error cannot import with .ts extension
+import { user, organization, member } from './auth.ts'
 
 export const notes = pgTable('notes', {
   id: bigint({ mode: 'number' }).primaryKey().generatedAlwaysAsIdentity(),
@@ -22,6 +22,7 @@ export const notesRelations = relations(notes, ({ one }) => ({
     references: [user.id]
   })
 }))
+
 
 export const memberRelations = relations(member, ({ one }) => ({
   organization: one(organization, {

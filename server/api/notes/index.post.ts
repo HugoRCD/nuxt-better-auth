@@ -1,14 +1,12 @@
-import { notes } from '../../database/schema'
-
 export default eventHandler(async (event) => {
   const { user, team } = await requireTeam(event)
   const { title, content } = await readBody(event)
 
-  const note = await useDrizzle().insert(notes).values({
+  const note = await db.insert(schema.notes).values({
     title,
     content,
     userId: user.id,
-    organizationId: team.id,
+    organizationId: team.organization.id,
     createdAt: new Date(),
     updatedAt: new Date()
   }).returning()

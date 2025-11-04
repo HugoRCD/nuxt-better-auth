@@ -1,8 +1,12 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxt/ui-pro'],
+  modules: ['@nuxt/ui', '@nuxthub/core'],
 
   devtools: { enabled: true },
+
+  hub: {
+    database: 'postgresql'
+  },
 
   runtimeConfig: {
     public: {
@@ -46,8 +50,6 @@ export default defineNuxtConfig({
   },
 
   css: ['~/assets/css/index.css'],
-
-  future: { compatibilityVersion: 4 },
 
   compatibilityDate: '2025-05-13',
 })
