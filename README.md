@@ -50,7 +50,6 @@ Copy the `.env.example` file to `.env` and update the variables with your own va
 - `BETTER_AUTH_SECRET`: A random string used by Better Auth for encryption and generating hashes
 - `BETTER_AUTH_URL`: Your application URL (set to production URL when deploying)
 - `GITHUB_CLIENT_ID` & `GITHUB_CLIENT_SECRET`: GitHub OAuth credentials (optional, see [create an OAuth application](https://github.com/settings/applications/new))
-- `NUXT_UI_PRO_LICENSE`: Your Nuxt UI Pro license key (only required for production), purchase [here](https://ui.nuxt.com/pro)
 
 ### Database Setup
 
