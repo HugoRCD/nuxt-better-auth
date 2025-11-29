@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   hub: {
-    database: 'postgresql'
+    db: 'postgresql'
   },
 
   runtimeConfig: {

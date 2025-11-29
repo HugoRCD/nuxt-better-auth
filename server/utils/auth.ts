@@ -3,8 +3,8 @@ import { anonymous, admin, organization } from 'better-auth/plugins'
 import { drizzleAdapter } from 'better-auth/adapters/drizzle'
 // To run `auth:schema` command, you need to import the schema from the .nuxt/hub/database/schema.js file
 // import { db, schema } from '../../.nuxt/hub/database/schema.js'
-// But in dev & prod, use 'hub:database' to import the schema
-import { db, schema } from 'hub:database'
+// But in dev & prod, use 'hub:db' to import the schema
+import { db, schema } from 'hub:db'
 
 export const auth: ReturnType<typeof betterAuth> = betterAuth({
   database: drizzleAdapter(
