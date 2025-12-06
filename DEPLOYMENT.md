@@ -15,9 +15,6 @@ BETTER_AUTH_URL="http://localhost:3000" # Change to your production URL when dep
 # GitHub OAuth (optional - for social login)
 GITHUB_CLIENT_ID="your-github-client-id"
 GITHUB_CLIENT_SECRET="your-github-client-secret"
-
-# Nuxt UI Pro License (optional - only required for production)
-NUXT_UI_PRO_LICENSE="your-license-key"
 ```
 
 ## Authentication Schema Management
@@ -72,7 +69,6 @@ You can use any PostgreSQL provider like Railway, Supabase, or your own PostgreS
    - `BETTER_AUTH_SECRET`: Generate a random string (use `openssl rand -base64 32`)
    - `BETTER_AUTH_URL`: Your Vercel deployment URL (e.g., `https://your-app.vercel.app`)
    - `GITHUB_CLIENT_ID` & `GITHUB_CLIENT_SECRET`: (optional) Your GitHub OAuth credentials
-   - `NUXT_UI_PRO_LICENSE`: (optional) Your Nuxt UI Pro license
 
 ### Step 4: Run Database Migrations
 
