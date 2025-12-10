@@ -19,7 +19,7 @@
     "@iconify-json/lucide": "^1.2.79",
     "@iconify-json/simple-icons": "^1.2.61",
     "@nuxt/ui": "^4.2.1",
-    "@nuxthub/core": "npm:@nuxthub/core-nightly@0.10.0-20251206-215008-6bbc30a",
+    "@nuxthub/core": "^0.10.0",
     "@shelve/cli": "^4.1.6",
     "@vueuse/core": "^13.9.0",
     "better-auth": "^1.4.5",
