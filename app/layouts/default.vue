@@ -33,12 +33,12 @@ const links = [
     {
       label: 'Feedback',
       icon: 'i-lucide-message-circle',
-      to: 'https://github.com/nuxt-ui-pro/dashboard',
+      to: 'https://github.com/nuxt-ui-templates/dashboard',
       target: '_blank'
     }, {
       label: 'Help & Support',
       icon: 'i-lucide-info',
-      to: 'https://github.com/nuxt/ui-pro',
+      to: 'https://github.com/nuxt/ui',
       target: '_blank'
     }
   ]
