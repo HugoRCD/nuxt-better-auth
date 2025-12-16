@@ -18,25 +18,22 @@ The easiest way to self-host this application is using Docker with Coolify. This
 
 2. **Select Docker Compose** as the build pack
 
-3. **Configure environment variables** in Coolify:
-   ```bash
-   # Required
-   BETTER_AUTH_SECRET=<generate with: openssl rand -base64 32>
-   BETTER_AUTH_URL=https://your-domain.com
+3. **Assign a domain** to the `app` service in Coolify
 
-   # Optional: GitHub OAuth
+4. **Configure GitHub OAuth** in Coolify's Environment Variables:
+   ```bash
    GITHUB_CLIENT_ID=your-client-id
    GITHUB_CLIENT_SECRET=your-client-secret
    ```
+   → [Create a GitHub OAuth App](https://github.com/settings/applications/new)
 
-4. **Deploy** - Coolify will automatically:
-   - Build the Nuxt application
-   - Start PostgreSQL and Redis containers
-   - Configure networking between services
+5. **Deploy** - Coolify auto-configures everything else:
+   - `BETTER_AUTH_URL` → Generated from your domain
+   - `BETTER_AUTH_SECRET` → Auto-generated secure password
+   - `DATABASE_URL` → Auto-configured with secure password
+   - Database migrations → Handled automatically by NuxtHub
 
-5. **Run migrations** - Visit `https://your-domain.com/api/migrate` after first deployment
-
-That's it! Your app is now running with a full PostgreSQL + Redis stack.
+> **Minimal config!** Only GitHub OAuth credentials needed. Thanks to [Coolify's Magic Variables](https://coolify.io/docs/knowledge-base/docker/compose#coolify-s-magic-environment-variables), all other secrets are auto-generated.
 
 ### Manual Docker Deployment
 
@@ -53,20 +50,17 @@ cp .env.example .env
 
 # Start all services
 docker compose up -d
-
-# Run migrations
-curl http://localhost:3000/api/migrate
 ```
 
 ### Docker Architecture
 
 ```
 ┌─────────────────────────────────────────┐
-│              Docker Network             │
+│            Coolify Network              │
 ├─────────────────────────────────────────┤
 │  ┌─────────┐  ┌─────────┐  ┌─────────┐  │
-│  │  Nuxt   │  │ Postgres│  │  Redis  │  │
-│  │  :3000  │──│  :5432  │  │  :6379  │  │
+│  │  Nuxt   │──│ Postgres│  │  Redis  │  │
+│  │  App    │  │  :5432  │  │  :6379  │  │
 │  └─────────┘  └─────────┘  └─────────┘  │
 └─────────────────────────────────────────┘
 ```
@@ -143,16 +137,7 @@ You can use any PostgreSQL provider like Railway, Supabase, or your own PostgreS
    - `BETTER_AUTH_URL`: Your Vercel deployment URL (e.g., `https://your-app.vercel.app`)
    - `GITHUB_CLIENT_ID` & `GITHUB_CLIENT_SECRET`: (optional) Your GitHub OAuth credentials
 
-### Step 4: Run Database Migrations
-
-After deployment, visit `https://your-app.vercel.app/api/migrate` to run the database migrations.
-
 ## Troubleshooting
-
-### Migration Issues
-- Ensure `DATABASE_URL` is correctly set
-- Visit `/api/migrate` endpoint after deployment
-- Check logs for migration errors
 
 ### Authentication Issues
 - Verify `BETTER_AUTH_SECRET` is set and consistent

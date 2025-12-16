@@ -3,18 +3,14 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-      args:
-        - DATABASE_URL=postgresql://postgres:${POSTGRES_PASSWORD:-postgres}@db:5432/${POSTGRES_DB:-nuxthub}
-    ports:
-      - "${APP_PORT:-3000}:3000"
     environment:
       - NODE_ENV=production
-      - DATABASE_URL=postgresql://postgres:${POSTGRES_PASSWORD:-postgres}@db:5432/${POSTGRES_DB:-nuxthub}
+      - DATABASE_URL=postgresql://postgres:${SERVICE_PASSWORD_DB:-postgres}@db:5432/nuxthub
       - REDIS_URL=redis://redis:6379
-      - BETTER_AUTH_SECRET=${BETTER_AUTH_SECRET}
-      - BETTER_AUTH_URL=${BETTER_AUTH_URL}
-      - GITHUB_CLIENT_ID=${GITHUB_CLIENT_ID:-}
-      - GITHUB_CLIENT_SECRET=${GITHUB_CLIENT_SECRET:-}
+      - BETTER_AUTH_URL=${SERVICE_FQDN_APP}
+      - BETTER_AUTH_SECRET=${SERVICE_PASSWORD_64_APP}
+      - GITHUB_CLIENT_ID=${GITHUB_CLIENT_ID}
+      - GITHUB_CLIENT_SECRET=${GITHUB_CLIENT_SECRET}
     depends_on:
       db:
         condition: service_healthy
@@ -28,12 +24,12 @@ services:
     image: postgres:17-alpine
     environment:
       - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD:-postgres}
-      - POSTGRES_DB=${POSTGRES_DB:-nuxthub}
+      - POSTGRES_PASSWORD=${SERVICE_PASSWORD_DB:-postgres}
+      - POSTGRES_DB=nuxthub
     volumes:
       - postgres_data:/var/lib/postgresql/data
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U postgres -d ${POSTGRES_DB:-nuxthub}"]
+      test: ["CMD-SHELL", "pg_isready -U postgres -d nuxthub"]
       interval: 10s
       timeout: 5s
       retries: 5
