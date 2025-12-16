@@ -28,8 +28,8 @@ The easiest way to self-host this application is using Docker with Coolify. This
    → [Create a GitHub OAuth App](https://github.com/settings/applications/new)
 
 5. **Deploy** - Coolify auto-configures everything else:
-   - `BETTER_AUTH_URL` → Generated from your domain
-   - `BETTER_AUTH_SECRET` → Auto-generated secure password
+   - `BETTER_AUTH_URL` → Generated from your domain (via `SERVICE_URL_APP`)
+   - `BETTER_AUTH_SECRET` → Auto-generated 64-bit password
    - `DATABASE_URL` → Auto-configured with secure password
    - Database migrations → Handled automatically by NuxtHub
 

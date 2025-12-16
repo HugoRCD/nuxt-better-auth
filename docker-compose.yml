@@ -7,7 +7,8 @@ services:
       - NODE_ENV=production
       - DATABASE_URL=postgresql://postgres:${SERVICE_PASSWORD_DB:-postgres}@db:5432/nuxthub
       - REDIS_URL=redis://redis:6379
-      - BETTER_AUTH_URL=${BETTER_AUTH_URL:-http://localhost:3000}
+      - SERVICE_URL_APP
+      - BETTER_AUTH_URL=${SERVICE_URL_APP}
       - BETTER_AUTH_SECRET=${SERVICE_PASSWORD_64_APP}
       - GITHUB_CLIENT_ID=${GITHUB_CLIENT_ID}
       - GITHUB_CLIENT_SECRET=${GITHUB_CLIENT_SECRET}
