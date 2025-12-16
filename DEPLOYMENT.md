@@ -1,5 +1,78 @@
 # Deployment Guide
 
+## Self-Host with Docker (Coolify)
+
+The easiest way to self-host this application is using Docker with Coolify. This setup includes PostgreSQL and Redis out of the box.
+
+### Prerequisites
+
+- A server with [Coolify](https://coolify.io) installed
+- Or Docker & Docker Compose for local/manual deployment
+
+### Deploy to Coolify (Recommended)
+
+1. **Add your repository** in Coolify:
+   - Go to Projects → New Project → New Resource
+   - Select "Private Repository (with GitHub App)" or "Public Repository"
+   - Choose your repository and branch
+
+2. **Select Docker Compose** as the build pack
+
+3. **Configure environment variables** in Coolify:
+   ```bash
+   # Required
+   BETTER_AUTH_SECRET=<generate with: openssl rand -base64 32>
+   BETTER_AUTH_URL=https://your-domain.com
+
+   # Optional: GitHub OAuth
+   GITHUB_CLIENT_ID=your-client-id
+   GITHUB_CLIENT_SECRET=your-client-secret
+   ```
+
+4. **Deploy** - Coolify will automatically:
+   - Build the Nuxt application
+   - Start PostgreSQL and Redis containers
+   - Configure networking between services
+
+5. **Run migrations** - Visit `https://your-domain.com/api/migrate` after first deployment
+
+That's it! Your app is now running with a full PostgreSQL + Redis stack.
+
+### Manual Docker Deployment
+
+For manual deployment without Coolify:
+
+```bash
+# Clone the repository
+git clone https://github.com/HugoRCD/nuxt-better-auth.git
+cd nuxt-better-auth
+
+# Copy and configure environment variables
+cp .env.example .env
+# Edit .env with your values
+
+# Start all services
+docker compose up -d
+
+# Run migrations
+curl http://localhost:3000/api/migrate
+```
+
+### Docker Architecture
+
+```
+┌─────────────────────────────────────────┐
+│              Docker Network             │
+├─────────────────────────────────────────┤
+│  ┌─────────┐  ┌─────────┐  ┌─────────┐  │
+│  │  Nuxt   │  │ Postgres│  │  Redis  │  │
+│  │  :3000  │──│  :5432  │  │  :6379  │  │
+│  └─────────┘  └─────────┘  └─────────┘  │
+└─────────────────────────────────────────┘
+```
+
+---
+
 ## Environment Variables
 
 Copy these variables to your `.env` file for local development or add them to your hosting platform:
@@ -15,9 +88,6 @@ BETTER_AUTH_URL="http://localhost:3000" # Change to your production URL when dep
 # GitHub OAuth (optional - for social login)
 GITHUB_CLIENT_ID="your-github-client-id"
 GITHUB_CLIENT_SECRET="your-github-client-secret"
-
-# Nuxt UI Pro License (optional - only required for production)
-NUXT_UI_PRO_LICENSE="your-license-key"
 ```
 
 ## Authentication Schema Management
@@ -72,7 +142,6 @@ You can use any PostgreSQL provider like Railway, Supabase, or your own PostgreS
    - `BETTER_AUTH_SECRET`: Generate a random string (use `openssl rand -base64 32`)
    - `BETTER_AUTH_URL`: Your Vercel deployment URL (e.g., `https://your-app.vercel.app`)
    - `GITHUB_CLIENT_ID` & `GITHUB_CLIENT_SECRET`: (optional) Your GitHub OAuth credentials
-   - `NUXT_UI_PRO_LICENSE`: (optional) Your Nuxt UI Pro license
 
 ### Step 4: Run Database Migrations
 
@@ -93,4 +162,31 @@ After deployment, visit `https://your-app.vercel.app/api/migrate` to run the dat
 ### Database Connection Issues
 - Verify database URL format includes `?sslmode=require` for SSL connections
 - Check if database allows connections from your deployment platform
-- Ensure database user has proper permissions 
+- Ensure database user has proper permissions
+
+### Docker/Coolify Issues
+
+**Container won't start:**
+```bash
+# Check logs
+docker compose logs app
+docker compose logs db
+docker compose logs redis
+```
+
+**Database connection refused:**
+- Ensure PostgreSQL is healthy: `docker compose ps`
+- The app waits for PostgreSQL to be ready before starting
+
+**Reset everything:**
+```bash
+# Stop and remove all containers and volumes
+docker compose down -v
+
+# Rebuild and start fresh
+docker compose up -d --build
+```
+
+**Health check failing:**
+- The app exposes `/api/health` endpoint
+- Ensure port 3000 is not blocked by firewall
