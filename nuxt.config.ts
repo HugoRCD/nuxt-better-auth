@@ -5,7 +5,8 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   hub: {
-    db: 'postgresql'
+    db: 'postgresql',
+    kv: true
   },
 
   runtimeConfig: {
@@ -24,27 +25,6 @@ export default defineNuxtConfig({
     routeRules: {
       '/app/**': {
         ssr: false
-      }
-    }
-  },
-
-  $production: {
-    nitro: {
-      storage: {
-        auth: {
-          driver: 'redis',
-          url: process.env.REDIS_URL
-        }
-      }
-    }
-  },
-
-  $development: {
-    nitro: {
-      storage: {
-        auth: {
-          driver: 'memory'
-        }
       }
     }
   },

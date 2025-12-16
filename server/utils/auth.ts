@@ -5,6 +5,7 @@ import { drizzleAdapter } from 'better-auth/adapters/drizzle'
 // import { db, schema } from '../../.nuxt/hub/db.mjs'
 // But in dev & prod, use 'hub:db' to import the schema
 import { db, schema } from 'hub:db'
+import { kv } from 'hub:kv'
 
 export const auth: ReturnType<typeof betterAuth> = betterAuth({
   database: drizzleAdapter(
@@ -16,13 +17,13 @@ export const auth: ReturnType<typeof betterAuth> = betterAuth({
   ),
   secondaryStorage: {
     get: async (key) => {
-      return await useStorage('auth').getItemRaw(`_auth:${key}`)
+      return await kv.get(`_auth:${key}`)
     },
     set: async (key, value, ttl) => {
-      return await useStorage('auth').setItem(`_auth:${key}`, value, { ttl })
+      return await kv.set(`_auth:${key}`, value, { ttl })
     },
     delete: async (key) => {
-      await useStorage('auth').removeItem(`_auth:${key}`)
+      await kv.del(`_auth:${key}`)
     }
   },
   baseURL: getBaseURL(),
