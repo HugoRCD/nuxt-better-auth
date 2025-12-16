@@ -25,13 +25,17 @@ RUN pnpm install --frozen-lockfile
 # ================================
 FROM base AS build
 
+# Build arguments for NuxtHub to use external PostgreSQL
+ARG DATABASE_URL
+
 # Copy dependencies from deps stage
 COPY --from=deps /app/node_modules ./node_modules
 
 # Copy source code
 COPY . .
 
-# Build the application
+# Build the application with DATABASE_URL so NuxtHub uses PostgreSQL instead of pglite
+ENV DATABASE_URL=${DATABASE_URL}
 RUN pnpm build
 
 # ================================
