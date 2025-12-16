@@ -106,9 +106,3 @@ pnpm build
 3. Add the required environment variables
 4. Install the Neon Database integration for your database
 5. Deploy!
-
-After deployment, visit the `/api/migrate` endpoint to run database migrations.
-
-### Database Migrations
-
-Right now, we don't automatically run migrations on deployment. You can manually run them by visiting the `/api/migrate` endpoint after deploying.
