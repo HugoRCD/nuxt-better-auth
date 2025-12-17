@@ -1,67 +1,36 @@
-# ================================
-# Stage 1: Base image with pnpm
-# ================================
+# Stage 1: Base
 FROM node:22-alpine AS base
-
-# Install pnpm
 RUN corepack enable && corepack prepare pnpm@latest --activate
-
-# Set working directory
 WORKDIR /app
 
-# ================================
-# Stage 2: Install dependencies
-# ================================
+# Stage 2: Dependencies
 FROM base AS deps
-
-# Copy package files
 COPY package.json pnpm-lock.yaml .npmrc ./
-
-# Install dependencies
 RUN pnpm install --frozen-lockfile
 
-# ================================
-# Stage 3: Build the application
-# ================================
+# Stage 3: Build
 FROM base AS build
-
-# Copy dependencies from deps stage
+ARG DATABASE_URL
 COPY --from=deps /app/node_modules ./node_modules
-
-# Copy source code
 COPY . .
-
+ENV DATABASE_URL=${DATABASE_URL}
 RUN pnpm build
 
-# ================================
-# Stage 4: Production runtime
-# ================================
+# Stage 4: Runtime
 FROM node:22-alpine AS runtime
-
-# Create non-root user for security
-RUN addgroup --system --gid 1001 nuxt && \
-    adduser --system --uid 1001 nuxt
-
+RUN addgroup --system --gid 1001 nuxt && adduser --system --uid 1001 nuxt
 WORKDIR /app
-
-# Copy the built application
 COPY --from=build --chown=nuxt:nuxt /app/.output ./.output
-COPY --from=build --chown=nuxt:nuxt /app/.data ./.data
+RUN mkdir -p .data && chown nuxt:nuxt .data
 
-# Set environment variables
 ENV NODE_ENV=production
 ENV HOST=0.0.0.0
 ENV PORT=3000
 
-# Switch to non-root user
 USER nuxt
-
-# Expose the port
 EXPOSE 3000
 
-# Health check
 HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
     CMD wget --no-verbose --tries=1 --spider http://localhost:3000/api/health || exit 1
 
-# Start the application
 CMD ["node", ".output/server/index.mjs"]

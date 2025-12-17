@@ -3,6 +3,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+      args:
+        - DATABASE_URL=postgresql://postgres:${SERVICE_PASSWORD_DB:-postgres}@db:5432/nuxthub
     environment:
       - NODE_ENV=production
       - DATABASE_URL=postgresql://postgres:${SERVICE_PASSWORD_DB:-postgres}@db:5432/nuxthub

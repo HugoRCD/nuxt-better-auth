@@ -5,7 +5,10 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   hub: {
-    db: 'postgresql',
+    db: {
+      dialect: 'postgresql',
+      applyMigrationsDuringBuild: false
+    },
     kv: true
   },
 
