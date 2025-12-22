@@ -16,7 +16,7 @@
   "dependencies": {
     "@electric-sql/pglite": "^0.3.14",
     "@iconify-json/heroicons": "^1.2.3",
-    "@iconify-json/lucide": "^1.2.81",
+    "@iconify-json/lucide": "^1.2.82",
     "@iconify-json/simple-icons": "^1.2.63",
     "@nuxt/ui": "^4.3.0",
     "@nuxthub/core": "^0.10.3",
@@ -36,7 +36,7 @@
     "drizzle-kit": "^0.31.8",
     "eslint": "^9.39.2",
     "typescript": "^5.9.3",
-    "vue-tsc": "^3.1.8",
+    "vue-tsc": "^3.2.1",
     "wrangler": "^4.56.0"
   },
   "packageManager": "pnpm@10.26.1"
