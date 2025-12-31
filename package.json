@@ -17,7 +17,7 @@
     "@electric-sql/pglite": "^0.3.14",
     "@iconify-json/heroicons": "^1.2.3",
     "@iconify-json/lucide": "^1.2.82",
-    "@iconify-json/simple-icons": "^1.2.63",
+    "@iconify-json/simple-icons": "^1.2.64",
     "@nuxt/ui": "^4.3.0",
     "@nuxthub/core": "^0.10.4",
     "@shelve/cli": "^4.1.6",
@@ -39,5 +39,5 @@
     "vue-tsc": "^3.2.1",
     "wrangler": "^4.56.0"
   },
-  "packageManager": "pnpm@10.26.2"
+  "packageManager": "pnpm@10.27.0"
 }
