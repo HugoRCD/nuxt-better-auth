@@ -37,7 +37,7 @@
     "eslint": "^9.39.2",
     "typescript": "^5.9.3",
     "vue-tsc": "^3.2.2",
-    "wrangler": "^4.58.0"
+    "wrangler": "^4.59.1"
   },
   "packageManager": "pnpm@10.28.0"
 }
