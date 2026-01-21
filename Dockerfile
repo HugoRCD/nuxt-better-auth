@@ -1,5 +1,5 @@
 # Stage 1: Base
-FROM node:22.21.1-alpine AS base
+FROM node:22.22.0-alpine AS base
 RUN corepack enable && corepack prepare pnpm@latest --activate
 WORKDIR /app
 
@@ -17,7 +17,7 @@ ENV DATABASE_URL=${DATABASE_URL}
 RUN pnpm build
 
 # Stage 4: Runtime
-FROM node:22.21.1-alpine AS runtime
+FROM node:22.22.0-alpine AS runtime
 RUN addgroup --system --gid 1001 nuxt && adduser --system --uid 1001 nuxt
 WORKDIR /app
 COPY --from=build --chown=nuxt:nuxt /app/.output ./.output
