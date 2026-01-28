@@ -16,16 +16,16 @@
   "dependencies": {
     "@electric-sql/pglite": "^0.3.15",
     "@iconify-json/heroicons": "^1.2.3",
-    "@iconify-json/lucide": "^1.2.86",
-    "@iconify-json/simple-icons": "^1.2.67",
+    "@iconify-json/lucide": "^1.2.87",
+    "@iconify-json/simple-icons": "^1.2.68",
     "@nuxt/ui": "^4.4.0",
-    "@nuxthub/core": "^0.10.4",
-    "@shelve/cli": "^4.1.6",
+    "@nuxthub/core": "^0.10.5",
+    "@shelve/cli": "^4.1.7",
     "@vueuse/core": "^13.9.0",
     "better-auth": "^1.4.17",
     "drizzle-orm": "^0.45.1",
     "ioredis": "^5.9.2",
-    "nuxt": "^4.2.2",
+    "nuxt": "^4.3.0",
     "postgres": "^3.4.8",
     "vue": "^3.5.27",
     "vue-router": "^4.6.4",
@@ -36,8 +36,8 @@
     "drizzle-kit": "^0.31.8",
     "eslint": "^9.39.2",
     "typescript": "^5.9.3",
-    "vue-tsc": "^3.2.2",
-    "wrangler": "^4.59.3"
+    "vue-tsc": "^3.2.4",
+    "wrangler": "^4.61.0"
   },
-  "packageManager": "pnpm@10.28.1"
+  "packageManager": "pnpm@10.28.2"
 }
