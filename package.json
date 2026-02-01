@@ -19,10 +19,10 @@
     "@iconify-json/lucide": "^1.2.87",
     "@iconify-json/simple-icons": "^1.2.68",
     "@nuxt/ui": "^4.4.0",
-    "@nuxthub/core": "^0.10.5",
+    "@nuxthub/core": "^0.10.6",
     "@shelve/cli": "^4.1.7",
     "@vueuse/core": "^13.9.0",
-    "better-auth": "^1.4.17",
+    "better-auth": "^1.4.18",
     "drizzle-orm": "^0.45.1",
     "ioredis": "^5.9.2",
     "nuxt": "^4.3.0",
@@ -37,7 +37,7 @@
     "eslint": "^9.39.2",
     "typescript": "^5.9.3",
     "vue-tsc": "^3.2.4",
-    "wrangler": "^4.61.0"
+    "wrangler": "^4.61.1"
   },
   "packageManager": "pnpm@10.28.2"
 }
