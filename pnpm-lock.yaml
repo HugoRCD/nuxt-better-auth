@@ -18,8 +18,8 @@ importers:
         specifier: ^1.2.87
         version: 1.2.87
       '@iconify-json/simple-icons':
-        specifier: ^1.2.68
-        version: 1.2.68
+        specifier: ^1.2.69
+        version: 1.2.69
       '@nuxt/ui':
         specifier: ^4.4.0
         version: 4.4.0(@netlify/blobs@9.1.2)(@tiptap/extensions@3.16.0(@tiptap/core@3.16.0(@tiptap/pm@3.16.0))(@tiptap/pm@3.16.0))(@tiptap/y-tiptap@3.0.1(prosemirror-model@1.25.4)(prosemirror-state@1.4.4)(prosemirror-view@1.41.4)(y-protocols@1.0.7(yjs@13.6.28))(yjs@13.6.28))(@vercel/blob@2.0.0)(aws4fetch@1.0.20)(db0@0.3.4(@electric-sql/pglite@0.3.15)(drizzle-orm@0.45.1(@electric-sql/pglite@0.3.15)(@opentelemetry/api@1.9.0)(kysely@0.28.8)(pg@8.16.3)(postgres@3.4.8)))(embla-carousel@8.6.0)(ioredis@5.9.2)(jwt-decode@4.0.0)(magicast@0.5.1)(tailwindcss@4.1.18)(typescript@5.9.3)(vite@7.3.1(@types/node@24.0.8)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.44.1)(yaml@2.8.2))(vue-router@4.6.4(vue@3.5.27(typescript@5.9.3)))(vue@3.5.27(typescript@5.9.3))(yjs@13.6.28)(zod@3.25.76)
@@ -1042,8 +1042,8 @@ packages:
   '@iconify-json/lucide@1.2.87':
     resolution: {integrity: sha512-wxYIAp0f8Uw0rJa6BMWMaRbiHk3yV4XczA38GKXFlqyZtTdmHM1QOF4NZw5xpMlRDzbh2MnB7wjteLeFnn/ciQ==}
 
-  '@iconify-json/simple-icons@1.2.68':
-    resolution: {integrity: sha512-bQPl1zuZlX6AnofreA1v7J+hoPncrFMppqGboe/SH54jZO37meiBUGBqNOxEpc0HKfZGxJaVVJwZd4gdMYu3hw==}
+  '@iconify-json/simple-icons@1.2.69':
+    resolution: {integrity: sha512-T/rhy5n7pzE0ZOxQVlF68SNPCYYjRBpddjgjrJO5WWVRG8es5BQmvxIE9kKF+t2hhPGvuGQFpXmUyqbOtnxirQ==}
 
   '@iconify/collections@1.0.641':
     resolution: {integrity: sha512-G9LdUvewUdXp5SD4g06rWHpWo7s5/rQcsQxAQ3UQUqdRwkcUuPcGrY0qnZ0wzYLaeB0TVUrgC0MIigyhWiNgtQ==}
@@ -7530,7 +7530,7 @@ snapshots:
     dependencies:
       '@iconify/types': 2.0.0
 
-  '@iconify-json/simple-icons@1.2.68':
+  '@iconify-json/simple-icons@1.2.69':
     dependencies:
       '@iconify/types': 2.0.0
 
