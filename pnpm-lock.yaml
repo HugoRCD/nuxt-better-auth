@@ -15,10 +15,10 @@ importers:
         specifier: ^1.2.3
         version: 1.2.3
       '@iconify-json/lucide':
-        specifier: ^1.2.90
+        specifier: ^1.2.93
         version: 1.2.93
       '@iconify-json/simple-icons':
-        specifier: ^1.2.70
+        specifier: ^1.2.71
         version: 1.2.71
       '@nuxt/ui':
         specifier: ^4.4.0
@@ -64,16 +64,16 @@ importers:
         specifier: ^0.31.9
         version: 0.31.9
       eslint:
-        specifier: ^9.39.2
+        specifier: ^9.39.3
         version: 9.39.3(jiti@2.6.1)
       typescript:
         specifier: ^5.9.3
         version: 5.9.3
       vue-tsc:
-        specifier: ^3.2.4
+        specifier: ^3.2.5
         version: 3.2.5(typescript@5.9.3)
       wrangler:
-        specifier: ^4.65.0
+        specifier: ^4.67.0
         version: 4.67.0(@cloudflare/workers-types@4.20260228.0)
 
 packages:
@@ -7117,7 +7117,7 @@ snapshots:
 
   '@npmcli/fs@5.0.0':
     dependencies:
-      semver: 7.7.3
+      semver: 7.7.4
 
   '@npmcli/redact@4.0.0': {}
 
