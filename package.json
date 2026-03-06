@@ -16,13 +16,13 @@
   "dependencies": {
     "@electric-sql/pglite": "^0.3.15",
     "@iconify-json/heroicons": "^1.2.3",
-    "@iconify-json/lucide": "^1.2.95",
+    "@iconify-json/lucide": "^1.2.96",
     "@iconify-json/simple-icons": "^1.2.72",
     "@nuxt/ui": "^4.5.1",
-    "@nuxthub/core": "^0.10.6",
+    "@nuxthub/core": "^0.10.7",
     "@shelve/cli": "^4.1.7",
     "@vueuse/core": "^13.9.0",
-    "better-auth": "^1.5.1",
+    "better-auth": "^1.5.4",
     "drizzle-orm": "^0.45.1",
     "ioredis": "^5.10.0",
     "nuxt": "^4.3.1",
@@ -37,7 +37,7 @@
     "eslint": "^9.39.3",
     "typescript": "^5.9.3",
     "vue-tsc": "^3.2.5",
-    "wrangler": "^4.69.0"
+    "wrangler": "^4.71.0"
   },
   "packageManager": "pnpm@10.30.3"
 }
