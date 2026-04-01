@@ -14,30 +14,30 @@
     "db:migrate": "nuxt db migrate"
   },
   "dependencies": {
-    "@electric-sql/pglite": "^0.3.15",
+    "@electric-sql/pglite": "^0.4.2",
     "@iconify-json/heroicons": "^1.2.3",
-    "@iconify-json/lucide": "^1.2.96",
-    "@iconify-json/simple-icons": "^1.2.72",
-    "@nuxt/ui": "^4.5.1",
+    "@iconify-json/lucide": "^1.2.101",
+    "@iconify-json/simple-icons": "^1.2.76",
+    "@nuxt/ui": "^4.6.0",
     "@nuxthub/core": "^0.10.7",
     "@shelve/cli": "^4.1.7",
     "@vueuse/core": "^13.9.0",
-    "better-auth": "^1.5.4",
-    "drizzle-orm": "^0.45.1",
-    "ioredis": "^5.10.0",
-    "nuxt": "^4.3.1",
+    "better-auth": "^1.5.6",
+    "drizzle-orm": "^0.45.2",
+    "ioredis": "^5.10.1",
+    "nuxt": "^4.4.2",
     "postgres": "^3.4.8",
-    "vue": "^3.5.29",
+    "vue": "^3.5.31",
     "vue-router": "^4.6.4",
     "zod": "^3.25.76"
   },
   "devDependencies": {
     "@hrcd/eslint-config": "^3.0.3",
-    "drizzle-kit": "^0.31.9",
+    "drizzle-kit": "^0.31.10",
     "eslint": "^9.39.4",
     "typescript": "^5.9.3",
-    "vue-tsc": "^3.2.5",
-    "wrangler": "^4.71.0"
+    "vue-tsc": "^3.2.6",
+    "wrangler": "^4.79.0"
   },
-  "packageManager": "pnpm@10.31.0"
+  "packageManager": "pnpm@10.33.0"
 }
