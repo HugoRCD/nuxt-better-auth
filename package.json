@@ -14,15 +14,15 @@
     "db:migrate": "nuxt db migrate"
   },
   "dependencies": {
-    "@electric-sql/pglite": "^0.4.3",
+    "@electric-sql/pglite": "^0.4.4",
     "@iconify-json/heroicons": "^1.2.3",
     "@iconify-json/lucide": "^1.2.101",
-    "@iconify-json/simple-icons": "^1.2.76",
+    "@iconify-json/simple-icons": "^1.2.77",
     "@nuxt/ui": "^4.6.1",
     "@nuxthub/core": "^0.10.7",
     "@shelve/cli": "^4.1.7",
     "@vueuse/core": "^13.9.0",
-    "better-auth": "^1.6.0",
+    "better-auth": "^1.6.2",
     "drizzle-orm": "^0.45.2",
     "ioredis": "^5.10.1",
     "nuxt": "^4.4.2",
@@ -37,7 +37,7 @@
     "eslint": "^9.39.4",
     "typescript": "^5.9.3",
     "vue-tsc": "^3.2.6",
-    "wrangler": "^4.80.0"
+    "wrangler": "^4.81.1"
   },
   "packageManager": "pnpm@10.33.0"
 }
