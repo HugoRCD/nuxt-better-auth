@@ -15,30 +15,30 @@
   },
   "dependencies": {
     "@better-auth/infra": "^0.2.5",
-    "@electric-sql/pglite": "^0.4.4",
+    "@electric-sql/pglite": "^0.4.5",
     "@iconify-json/heroicons": "^1.2.3",
-    "@iconify-json/lucide": "^1.2.102",
-    "@iconify-json/simple-icons": "^1.2.78",
-    "@nuxt/ui": "^4.6.1",
+    "@iconify-json/lucide": "^1.2.104",
+    "@iconify-json/simple-icons": "^1.2.80",
+    "@nuxt/ui": "^4.7.1",
     "@nuxthub/core": "^0.10.7",
-    "@shelve/cli": "^4.2.0",
-    "@vueuse/core": "^13.9.0",
-    "better-auth": "^1.6.5",
+    "@shelve/cli": "^5.0.1",
+    "@vueuse/core": "^14.2.1",
+    "better-auth": "^1.6.9",
     "drizzle-orm": "^0.45.2",
     "ioredis": "^5.10.1",
     "nuxt": "^4.4.2",
     "postgres": "^3.4.9",
-    "vue": "^3.5.32",
-    "vue-router": "^4.6.4",
-    "zod": "^4.1.12"
+    "vue": "^3.5.33",
+    "vue-router": "^5.0.6",
+    "zod": "^4.3.6"
   },
   "devDependencies": {
     "@hrcd/eslint-config": "^3.0.3",
     "drizzle-kit": "^0.31.10",
     "eslint": "^9.39.4",
-    "typescript": "^5.9.3",
-    "vue-tsc": "^3.2.6",
-    "wrangler": "^4.83.0"
+    "typescript": "^6.0.3",
+    "vue-tsc": "^3.2.7",
+    "wrangler": "^4.86.0"
   },
   "packageManager": "pnpm@10.33.0"
 }

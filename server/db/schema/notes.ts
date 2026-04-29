@@ -3,7 +3,7 @@ import { relations } from 'drizzle-orm'
 
 // TODO: will be fixed in upcoming nuxthub version
 // @ts-expect-error cannot import with .ts extension
-import { user, organization, member } from './auth.ts'
+import { user, organization } from './auth.ts'
 
 export const notes = pgTable('notes', {
   id: bigint({ mode: 'number' }).primaryKey().generatedAlwaysAsIdentity(),
@@ -20,13 +20,9 @@ export const notesRelations = relations(notes, ({ one }) => ({
   user: one(user, {
     fields: [notes.userId],
     references: [user.id]
-  })
-}))
-
-
-export const memberRelations = relations(member, ({ one }) => ({
+  }),
   organization: one(organization, {
-    fields: [member.organizationId],
+    fields: [notes.organizationId],
     references: [organization.id]
   })
 }))
