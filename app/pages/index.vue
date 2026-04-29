@@ -61,7 +61,7 @@ const providers = [
 ]
 
 const signInSchema = z.object({
-  email: z.string().email('Invalid email'),
+  email: z.email('Invalid email'),
   password: z.string().min(8, 'Must be at least 8 characters')
 })
 
@@ -85,7 +85,7 @@ async function onSignIn(payload: FormSubmitEvent<SignInSchema>) {
         title: 'Successfully signed in',
         color: 'success',
       })
-      
+
       await fetchOrganizations()
       await navigateTo('/app/user')
     } else {

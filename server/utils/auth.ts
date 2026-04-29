@@ -26,6 +26,7 @@ export const auth = betterAuth({
     accountLinking: {
       enabled: true,
     },
+    storeStateStrategy: 'cookie',
   },
   user: {
     deleteUser: {

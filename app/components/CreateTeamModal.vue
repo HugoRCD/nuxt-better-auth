@@ -2,9 +2,9 @@
 import type { FormSubmitEvent } from '@nuxt/ui'
 
 const state = reactive<Partial<CreateTeamSchema>>({
-  name: undefined,
-  slug: undefined,
-  logo: undefined
+  name: '',
+  slug: '',
+  logo: ''
 })
 
 const {
