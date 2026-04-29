@@ -30,7 +30,7 @@
     "postgres": "^3.4.9",
     "vue": "^3.5.32",
     "vue-router": "^4.6.4",
-    "zod": "^3.25.76"
+    "zod": "^4.1.12"
   },
   "devDependencies": {
     "@hrcd/eslint-config": "^3.0.3",
