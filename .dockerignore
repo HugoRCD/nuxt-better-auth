@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs
+.nuxt/
+.output/
+dist/
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment files (use docker-compose env instead)
+.env
+.env.*
+!.env.example
+
+# Documentation
+*.md
+!README.md
+
+# Tests
+coverage/
+.nyc_output/
+
+# Misc
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Docker files (not needed in build context)
+docker-compose*.yml
+Dockerfile*

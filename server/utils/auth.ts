@@ -1,10 +1,12 @@
 import { betterAuth } from 'better-auth'
 import { anonymous, admin, organization } from 'better-auth/plugins'
+import { dash } from '@better-auth/infra'
 import { drizzleAdapter } from 'better-auth/adapters/drizzle'
 // To run `auth:schema` command, you need to import the schema from the .nuxt/hub/database/schema.js file
-// import { db, schema } from '../../.nuxt/hub/database/schema.js'
-// But in dev & prod, use 'hub:database' to import the schema
-import { db, schema } from 'hub:database'
+// import { db, schema } from '../../.nuxt/hub/db.mjs'
+// But in dev & prod, use 'hub:db' to import the schema
+import { db, schema } from 'hub:db'
+import { kv } from 'hub:kv'
 
 export const auth: ReturnType<typeof betterAuth> = betterAuth({
   database: drizzleAdapter(
@@ -16,13 +18,13 @@ export const auth: ReturnType<typeof betterAuth> = betterAuth({
   ),
   secondaryStorage: {
     get: async (key) => {
-      return await useStorage('auth').getItemRaw(`_auth:${key}`)
+      return await kv.get(`_auth:${key}`)
     },
     set: async (key, value, ttl) => {
-      return await useStorage('auth').setItem(`_auth:${key}`, value, { ttl })
+      return await kv.set(`_auth:${key}`, value, { ttl })
     },
     delete: async (key) => {
-      await useStorage('auth').removeItem(`_auth:${key}`)
+      await kv.del(`_auth:${key}`)
     }
   },
   baseURL: getBaseURL(),
@@ -45,7 +47,7 @@ export const auth: ReturnType<typeof betterAuth> = betterAuth({
       enabled: true
     },
   },
-  plugins: [anonymous(), admin(), organization()],
+  plugins: [anonymous(), admin(), organization(), dash()],
   databaseHooks: {
     session: {
       create: {
