@@ -14,6 +14,7 @@
     "db:migrate": "nuxt db migrate"
   },
   "dependencies": {
+    "@better-auth/infra": "^0.2.5",
     "@electric-sql/pglite": "^0.4.4",
     "@iconify-json/heroicons": "^1.2.3",
     "@iconify-json/lucide": "^1.2.102",
