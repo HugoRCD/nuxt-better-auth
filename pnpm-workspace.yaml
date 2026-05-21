@@ -1,0 +1,25 @@
+shamefullyHoist: true
+autoInstallPeers: true
+ignoreWorkspaceRootCheck: true
+
+allowBuilds:
+  '@parcel/watcher': false
+  esbuild: false
+  unrs-resolver: false
+  vue-demi: false
+  workerd: false
+  better-sqlite3: false
+  sharp: false
+
+minimumReleaseAge: 2880
+
+minimumReleaseAgeExclude:
+  # Nuxt
+  - '@nuxt/*'
+  - '@nuxtjs/*'
+  - 'nuxt'
+  - 'nuxt-*'
+  # Vercel
+  - '@vercel/*'
+  - '@ai-sdk/*'
+  - 'ai'
