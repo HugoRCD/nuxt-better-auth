@@ -106,3 +106,15 @@ pnpm build
 3. Add the required environment variables
 4. Install the Neon Database integration for your database
 5. Deploy!
+
+<!-- automd:fetch url="gh:hugorcd/markdown/main/src/sponsors.md" -->
+
+## Sponsors
+
+<p align="center">
+  <a href="https://github.com/sponsors/HugoRCD">
+    <img src='https://cdn.jsdelivr.net/gh/hugorcd/static/sponsors.svg' alt="HugoRCD sponsors" />
+  </a>
+</p>
+
+<!-- /automd -->
