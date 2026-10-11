@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@better-auth/infra':
         specifier: ^0.2.5
-        version: 0.2.5(@better-auth/core@1.6.9(@better-auth/utils@0.4.0)(@better-fetch/fetch@1.1.21)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.5(zod@4.3.6))(jose@6.2.3)(kysely@0.28.16)(nanostores@1.3.0))(@better-auth/sso@1.6.9(@better-auth/core@1.6.9(@better-auth/utils@0.4.0)(@better-fetch/fetch@1.1.21)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.5(zod@4.3.6))(jose@6.2.3)(kysely@0.28.16)(nanostores@1.3.0))(@better-auth/utils@0.4.0)(@better-fetch/fetch@1.1.21)(better-auth@1.6.9(@cloudflare/workers-types@4.20260426.1)(drizzle-kit@0.31.10)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.28.16)(postgres@3.4.9))(vue@3.5.33(typescript@6.0.3)))(better-call@1.3.5(zod@4.3.6)))(better-auth@1.6.9(@cloudflare/workers-types@4.20260426.1)(drizzle-kit@0.31.10)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.28.16)(postgres@3.4.9))(vue@3.5.33(typescript@6.0.3)))(zod@4.3.6)
+        version: 0.2.5(@better-auth/core@1.6.22(@better-auth/utils@0.4.2)(@better-fetch/fetch@1.3.1)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.7(zod@4.3.6))(jose@6.2.12)(kysely@0.29.6)(nanostores@1.5.5))(@better-auth/sso@1.6.9(@better-auth/core@1.6.22(@better-auth/utils@0.4.2)(@better-fetch/fetch@1.3.1)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.7(zod@4.3.6))(jose@6.2.12)(kysely@0.29.6)(nanostores@1.5.5))(@better-auth/utils@0.4.2)(@better-fetch/fetch@1.3.1)(better-auth@1.6.22(@cloudflare/workers-types@4.20260426.1)(drizzle-kit@0.31.10)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.29.6)(postgres@3.4.9))(vue@3.5.33(typescript@6.0.3)))(better-call@1.3.7(zod@4.3.6)))(better-auth@1.6.22(@cloudflare/workers-types@4.20260426.1)(drizzle-kit@0.31.10)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.29.6)(postgres@3.4.9))(vue@3.5.33(typescript@6.0.3)))(zod@4.3.6)
       '@electric-sql/pglite':
         specifier: ^0.4.5
         version: 0.4.5
@@ -25,10 +25,10 @@ importers:
         version: 1.2.80
       '@nuxt/ui':
         specifier: ^4.7.1
-        version: 4.7.1(@internationalized/date@3.12.1)(@internationalized/number@3.6.6)(@tiptap/extensions@3.22.5(@tiptap/core@3.22.5(@tiptap/pm@3.22.5))(@tiptap/pm@3.22.5))(@tiptap/y-tiptap@3.0.1(prosemirror-model@1.25.4)(prosemirror-state@1.4.4)(prosemirror-view@1.41.8)(y-protocols@1.0.7(yjs@13.6.28))(yjs@13.6.28))(db0@0.3.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.28.16)(postgres@3.4.9)))(embla-carousel@8.6.0)(ioredis@5.10.1)(magicast@0.5.5)(tailwindcss@4.2.4)(typescript@6.0.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))(vue-router@5.0.6(@vue/compiler-sfc@3.5.43)(vue@3.5.33(typescript@6.0.3)))(vue@3.5.33(typescript@6.0.3))(yjs@13.6.28)(zod@4.3.6)
+        version: 4.7.1(@internationalized/date@3.12.1)(@internationalized/number@3.6.6)(@tiptap/extensions@3.22.5(@tiptap/core@3.22.5(@tiptap/pm@3.22.5))(@tiptap/pm@3.22.5))(@tiptap/y-tiptap@3.0.1(prosemirror-model@1.25.4)(prosemirror-state@1.4.4)(prosemirror-view@1.41.8)(y-protocols@1.0.7(yjs@13.6.28))(yjs@13.6.28))(db0@0.3.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.29.6)(postgres@3.4.9)))(embla-carousel@8.6.0)(ioredis@5.10.1)(magicast@0.5.5)(tailwindcss@4.2.4)(typescript@6.0.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))(vue-router@5.0.6(@vue/compiler-sfc@3.5.43)(vue@3.5.33(typescript@6.0.3)))(vue@3.5.33(typescript@6.0.3))(yjs@13.6.28)(zod@4.3.6)
       '@nuxthub/core':
         specifier: ^0.10.7
-        version: 0.10.7(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(db0@0.3.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.28.16)(postgres@3.4.9)))(ioredis@5.10.1)(magicast@0.5.5)(typescript@6.0.3)(vue-tsc@3.2.7(typescript@6.0.3))
+        version: 0.10.7(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(db0@0.3.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.29.6)(postgres@3.4.9)))(ioredis@5.10.1)(magicast@0.5.5)(typescript@6.0.3)(vue-tsc@3.2.7(typescript@6.0.3))
       '@shelve/cli':
         specifier: ^5.0.1
         version: 5.0.1(magicast@0.5.5)
@@ -37,16 +37,16 @@ importers:
         version: 14.2.1(vue@3.5.33(typescript@6.0.3))
       better-auth:
         specifier: ^1.6.9
-        version: 1.6.9(@cloudflare/workers-types@4.20260426.1)(drizzle-kit@0.31.10)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.28.16)(postgres@3.4.9))(vue@3.5.33(typescript@6.0.3))
+        version: 1.6.22(@cloudflare/workers-types@4.20260426.1)(drizzle-kit@0.31.10)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.29.6)(postgres@3.4.9))(vue@3.5.33(typescript@6.0.3))
       drizzle-orm:
         specifier: ^0.45.2
-        version: 0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.28.16)(postgres@3.4.9)
+        version: 0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.29.6)(postgres@3.4.9)
       ioredis:
         specifier: ^5.10.1
         version: 5.10.1
       nuxt:
         specifier: ^4.4.2
-        version: 4.5.1(@babel/plugin-syntax-jsx@7.29.7(@babel/core@7.29.7))(@babel/plugin-syntax-typescript@7.29.7(@babel/core@7.29.7))(@electric-sql/pglite@0.4.5)(@oxc-project/types@0.153.0)(@vue/compiler-sfc@3.5.43)(cac@6.7.14)(confbox@0.3.1)(db0@0.3.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.28.16)(postgres@3.4.9)))(dotenv@17.4.2)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.28.16)(postgres@3.4.9))(esbuild@0.28.2)(eslint@9.39.4(jiti@2.7.0))(giget@3.3.1)(ioredis@5.10.1)(lightningcss@1.33.0)(magicast@0.5.5)(optionator@0.9.4)(rollup-plugin-visualizer@7.1.1(rolldown@1.0.0-beta.57(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0))(rollup@4.64.3))(rollup@4.64.3)(srvx@0.11.22)(terser@5.51.2)(tsx@4.21.0)(typescript@6.0.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))(vue-tsc@3.2.7(typescript@6.0.3))(yaml@2.8.3)
+        version: 4.5.1(@babel/plugin-syntax-jsx@7.29.7(@babel/core@7.29.7))(@babel/plugin-syntax-typescript@7.29.7(@babel/core@7.29.7))(@electric-sql/pglite@0.4.5)(@oxc-project/types@0.153.0)(@vue/compiler-sfc@3.5.43)(cac@6.7.14)(confbox@0.3.1)(db0@0.3.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.29.6)(postgres@3.4.9)))(dotenv@17.4.2)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.29.6)(postgres@3.4.9))(esbuild@0.28.2)(eslint@9.39.4(jiti@2.7.0))(giget@3.3.1)(ioredis@5.10.1)(lightningcss@1.33.0)(magicast@0.5.5)(optionator@0.9.4)(rollup-plugin-visualizer@7.1.1(rolldown@1.2.13)(rollup@4.64.3))(rollup@4.64.3)(srvx@0.11.22)(terser@5.51.2)(tsx@4.21.0)(typescript@6.0.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))(vue-tsc@3.2.7(typescript@6.0.3))(yaml@2.8.3)
       postgres:
         specifier: ^3.4.9
         version: 3.4.9
@@ -255,16 +255,16 @@ packages:
     resolution: {integrity: sha512-c+xgSWboV2pdwXP67BUWDVRHi2BO5Q3KwxyFVs7taVTY+fsK47/L51ZXQoV9rozHJDNHvJ4v4WEsI/IlxV2l2A==}
     engines: {node: ^22.18.0 || >=24.11.0}
 
-  '@better-auth/core@1.6.9':
-    resolution: {integrity: sha512-ADFk5pwmLybmc+LvYvXJ6M1x2oY/EyYLkwLuH0x28FUq12DfjL0wnE7g+WRDf3yozDO+qIxTpFGXDGwLKbfz0w==}
+  '@better-auth/core@1.6.22':
+    resolution: {integrity: sha512-aFH/5nzmR501jAJPKjJfiVg4BrkcjVCqq9WS9JnhTruE/2PIWopv1QGMiRIRqxXaPbHczri7cqRdhep3Lg5PMw==}
     peerDependencies:
-      '@better-auth/utils': 0.4.0
-      '@better-fetch/fetch': 1.1.21
+      '@better-auth/utils': 0.4.2
+      '@better-fetch/fetch': 1.3.1
       '@cloudflare/workers-types': '>=4'
       '@opentelemetry/api': ^1.9.0
-      better-call: 1.3.5
+      better-call: 1.3.7
       jose: ^6.1.0
-      kysely: ^0.28.5
+      kysely: ^0.28.5 || ^0.29.0
       nanostores: ^1.0.1
     peerDependenciesMeta:
       '@cloudflare/workers-types':
@@ -272,11 +272,11 @@ packages:
       '@opentelemetry/api':
         optional: true
 
-  '@better-auth/drizzle-adapter@1.6.9':
-    resolution: {integrity: sha512-Lcco5hOGrMgc4XKAkvB6x72eQm4wCcya8IevMg4wBHY9W9GVg8pu23rpRX6VsVQSO4Ux13S7lFwUWtF7/r9aKw==}
+  '@better-auth/drizzle-adapter@1.6.22':
+    resolution: {integrity: sha512-uNa9qH53CfxBmuKP8kbLWxY90oIRwUPn5BcHhO+szK05e2yh6EYwSNNivDSqV3YG5HPfjtPHulklInjq1wtm3w==}
     peerDependencies:
-      '@better-auth/core': ^1.6.9
-      '@better-auth/utils': 0.4.0
+      '@better-auth/core': ^1.6.22
+      '@better-auth/utils': 0.4.2
       drizzle-orm: ^0.45.2
     peerDependenciesMeta:
       drizzle-orm:
@@ -306,37 +306,37 @@ packages:
       react-native:
         optional: true
 
-  '@better-auth/kysely-adapter@1.6.9':
-    resolution: {integrity: sha512-gyjuuxJtZ4o9G9z9q4kqn24X2kvMSp7F+KHogYxF03SnXY/2WleAcuj57iC4wP3e9mGDbjPOrnM5K6Kr3Ktdpw==}
+  '@better-auth/kysely-adapter@1.6.22':
+    resolution: {integrity: sha512-4k/07lPRizlQi+B+uOE5CwTfH3w+Lq8ZDX1nDN1+e+glRVKAIfHoLvC9cfAVcCbio3DDrl0RTbwjLwjEhG0LxA==}
     peerDependencies:
-      '@better-auth/core': ^1.6.9
-      '@better-auth/utils': 0.4.0
-      kysely: ^0.28.14
+      '@better-auth/core': ^1.6.22
+      '@better-auth/utils': 0.4.2
+      kysely: ^0.28.17 || ^0.29.0
     peerDependenciesMeta:
       kysely:
         optional: true
 
-  '@better-auth/memory-adapter@1.6.9':
-    resolution: {integrity: sha512-XmIG4tUnOXZ+KEcWjHUjOI9Z5donD09dC2t/AQTXifAUIqx7cySg86w0KTM09ArzAxRx1fCqO36Wkt5nULnrkQ==}
+  '@better-auth/memory-adapter@1.6.22':
+    resolution: {integrity: sha512-rbepe/gHhWs0aF4fAu6+l+wNPJxT9XN4U+Hqa1Y/5HhjtT9y5evo3INrSWlkIOymsMaQ0cBPrSL5pm9Z195hcA==}
     peerDependencies:
-      '@better-auth/core': ^1.6.9
-      '@better-auth/utils': 0.4.0
+      '@better-auth/core': ^1.6.22
+      '@better-auth/utils': 0.4.2
 
-  '@better-auth/mongo-adapter@1.6.9':
-    resolution: {integrity: sha512-h+AiRJ/TsBSi+ZDjySASBpbJ/9QCXBre34PSKgCz7QmTHrFM9Cg2EM4AM7LjR5lPXipEE+2rWPBc9wfnUBjhcw==}
+  '@better-auth/mongo-adapter@1.6.22':
+    resolution: {integrity: sha512-OYnfySHlVkIx7y6XNBsCHjKhl6IYGprRkFwifc/TAuPBVjoRKhLKRAXuzMdWTQYFt4FYb6holbhjNUrXxPIWcw==}
     peerDependencies:
-      '@better-auth/core': ^1.6.9
-      '@better-auth/utils': 0.4.0
+      '@better-auth/core': ^1.6.22
+      '@better-auth/utils': 0.4.2
       mongodb: ^6.0.0 || ^7.0.0
     peerDependenciesMeta:
       mongodb:
         optional: true
 
-  '@better-auth/prisma-adapter@1.6.9':
-    resolution: {integrity: sha512-XHks01ntK20orqK/jICq8wmEbJ/zT6dct49Fk8zTQKN9QNGDc+Ix5+7z/Kvui0DXGFf790GfvRozquzaLtXa8Q==}
+  '@better-auth/prisma-adapter@1.6.22':
+    resolution: {integrity: sha512-I6lWQwLva732V600u5dLM2kRcQ94pRZOVVfZ87+Ow9RBxMUnV+I+YQ5h2yggdN2tmsmITacZTy1DSZbDxGu0LQ==}
     peerDependencies:
-      '@better-auth/core': ^1.6.9
-      '@better-auth/utils': 0.4.0
+      '@better-auth/core': ^1.6.22
+      '@better-auth/utils': 0.4.2
       '@prisma/client': ^5.0.0 || ^6.0.0 || ^7.0.0
       prisma: ^5.0.0 || ^6.0.0 || ^7.0.0
     peerDependenciesMeta:
@@ -354,18 +354,24 @@ packages:
       better-auth: ^1.6.9
       better-call: 1.3.5
 
-  '@better-auth/telemetry@1.6.9':
-    resolution: {integrity: sha512-0u5zkhSCAQFoN3DHvUkLHOF6MBbVTDAa6mU8mhPwiysdz1x21vMzhzfaAKN/ZGWaQ09v91/F+2qu42G/bhUV4A==}
+  '@better-auth/telemetry@1.6.22':
+    resolution: {integrity: sha512-glq/oEk9qP+zGh9k/WUH5+pwvBCMolNNhaAVBCtYQrkADFee2gP3VoPs1YeO9coNuOmBhc+AYSIHs+fL9DoJnw==}
     peerDependencies:
-      '@better-auth/core': ^1.6.9
-      '@better-auth/utils': 0.4.0
-      '@better-fetch/fetch': 1.1.21
+      '@better-auth/core': ^1.6.22
+      '@better-auth/utils': 0.4.2
+      '@better-fetch/fetch': 1.3.1
 
-  '@better-auth/utils@0.4.0':
-    resolution: {integrity: sha512-RpMtLUIQAEWMgdPLNVbIF5ON2mm+CH0U3rCdUCU1VyeAUui4m38DyK7/aXMLZov2YDjG684pS1D0MBllrmgjQA==}
+  '@better-auth/utils@0.4.2':
+    resolution: {integrity: sha512-AUxrvu+HaaODsUyzDxFgwd/8RZ1yZaYo42LXKSrU2oGgR38pS1ij8nqQKNgtTWoYGpNevNXtCfgTy6loHveW9A==}
+
+  '@better-auth/utils@0.4.3':
+    resolution: {integrity: sha512-/X4gRYJBwRuLFjjANVpTDJJkAhLD6Sf8SIBypQ+Q2kDW1MnCsyxUujJzdKYsp59i4c41+AaMtpY/WQAQumqtOA==}
 
   '@better-fetch/fetch@1.1.21':
     resolution: {integrity: sha512-/ImESw0sskqlVR94jB+5+Pxjf+xBwDZF/N5+y2/q4EqD7IARUTSpPfIo8uf39SYpCxyOCtbyYpUrZ3F/k0zT4A==}
+
+  '@better-fetch/fetch@1.3.1':
+    resolution: {integrity: sha512-ABkD1WhyfPZprKRQI3bhATjeiFuNWC9PXhfGWqL+sg/gKrM977oFrYkdb4msM3hgUGonr7KlOsOFT5TU2rht9g==}
 
   '@bomb.sh/tab@0.0.19':
     resolution: {integrity: sha512-dTRfo9Q9B+lbLG3JCu8a/AGQSfD2XXcFcnakQzVjSOX+VvR/s9zpsH8TlqV3iHqazniRn1Ypwd1hcRlXcu/4BA==}
@@ -1656,12 +1662,12 @@ packages:
       '@emnapi/core': ^1.7.1
       '@emnapi/runtime': ^1.7.1
 
-  '@noble/ciphers@2.2.0':
-    resolution: {integrity: sha512-Z6pjIZ/8IJcCGzb2S/0Px5J81yij85xASuk1teLNeg75bfT07MV3a/O2Mtn1I2se43k3lkVEcFaR10N4cgQcZA==}
+  '@noble/ciphers@2.4.0':
+    resolution: {integrity: sha512-AnjFn0Jv92laAkvMrghlFZq4qQCIN/4DxFV/eooqtC2YTjB7kBeLMS2T9KJX4Dn+ZVXLOwK0lSgqDtx9gvxtiw==}
     engines: {node: '>= 20.19.0'}
 
-  '@noble/hashes@2.2.0':
-    resolution: {integrity: sha512-IYqDGiTXab6FniAgnSdZwgWbomxpy9FtYvLKs7wCUs2a8RkITG+DFGO1DM9cr+E3/RgADRpFjrKVaJ1z6sjtEg==}
+  '@noble/hashes@2.4.0':
+    resolution: {integrity: sha512-X5XaVWZIBCT7HHZGm5I7ZQXDwLG+bGXuSrMQAW+7Zvl87h1kmc1ZB1VSRJcpUfoUrGQp4Fkoxm5kZ+Ms+aW+eA==}
     engines: {node: '>= 20.19.0'}
 
   '@nodable/entities@3.1.0':
@@ -1878,8 +1884,8 @@ packages:
   '@nuxtjs/color-mode@3.5.2':
     resolution: {integrity: sha512-cC6RfgZh3guHBMLLjrBB2Uti5eUoGM9KyauOaYS9ETmxNWBMTvpgjvSiSJp1OFljIXPIqVTJ3xtJpSNZiO3ZaA==}
 
-  '@opentelemetry/semantic-conventions@1.40.0':
-    resolution: {integrity: sha512-cifvXDhcqMwwTlTK04GBNeIe7yyo28Mfby85QXFe1Yk8nmi36Ab/5UQwptOx84SsoGNRg+EVSjwzfSZMy6pmlw==}
+  '@opentelemetry/semantic-conventions@1.43.0':
+    resolution: {integrity: sha512-eSYWTm620tTk45EKSedaUL8MFYI8hW164hIXsgIHyxu3VobUB3fFCu5t0hQby6OoWRPsG1KkKUG2M5UadiLiVg==}
     engines: {node: '>=14'}
 
   '@oxc-project/types@0.103.0':
@@ -3410,8 +3416,8 @@ packages:
     engines: {node: '>=6.0.0'}
     hasBin: true
 
-  better-auth@1.6.9:
-    resolution: {integrity: sha512-EBFURtglyiEZxbx4NJBoqUD8J65dX24yC+6I9AUbIXNgUkt76mshzGbHkxZ3n/lB7Dwq3kBC+hHt0hUQsnL7HA==}
+  better-auth@1.6.22:
+    resolution: {integrity: sha512-B5s6+lPsDWp8rGLRnvNyr5h9tftG9zLRjNrlkEJdYRhcuhPhJiw9b8o6ibgxEFpSAdUqoDaP5/FLqfu8QsXIVg==}
     peerDependencies:
       '@lynx-js/react': '*'
       '@prisma/client': ^5.0.0 || ^6.0.0 || ^7.0.0
@@ -3474,6 +3480,14 @@ packages:
 
   better-call@1.3.5:
     resolution: {integrity: sha512-kOFJkBP7utAQLEYrobZm3vkTH8mXq5GNgvjc5/XEST1ilVHaxXUXfeDeFlqoETMtyqS4+3/h4ONX2i++ebZrvA==}
+    peerDependencies:
+      zod: ^4.0.0
+    peerDependenciesMeta:
+      zod:
+        optional: true
+
+  better-call@1.3.7:
+    resolution: {integrity: sha512-Al51/hjp2SSp6CRTa3F2ptcx4yQVS1xWKoY6jcVXqNYOap6mHFP2jUBn5EwIL4iIed1/Sq4hlQ+Umm6EflZG+w==}
     peerDependencies:
       zod: ^4.0.0
     peerDependenciesMeta:
@@ -4773,9 +4787,9 @@ packages:
   knitwork@1.3.0:
     resolution: {integrity: sha512-4LqMNoONzR43B1W0ek0fhXMsDNW/zxa1NdFAVMY+k28pgZLovR4G3PB5MrpTxCy1QaZCqNoiaKPr5w5qZHfSNw==}
 
-  kysely@0.28.16:
-    resolution: {integrity: sha512-3i5pmOiZvMDj00qhrIVbH0AnioVTx22DMP7Vn5At4yJO46iy+FM8Y/g61ltenLVSo3fiO8h8Q3QOFgf/gQ72ww==}
-    engines: {node: '>=20.0.0'}
+  kysely@0.29.6:
+    resolution: {integrity: sha512-hHaB8C/rfzDDtr/t8YZwxAuPJTT0zHyaPoVzcXwDYhYNAgH/4sIfVhi/XLLIY+bL/FqaIJnjATDbi8ObSELmxg==}
+    engines: {node: '>=22.0.0'}
 
   launch-editor@2.14.2:
     resolution: {integrity: sha512-NHJEb30MGBCkmZXLZwz25t37QR4aY03ZzPYUJXOJaOa92uWwExI9SBQUuIznBYc1xkD7cJNGX7oc3Nl3sq2kQQ==}
@@ -5158,8 +5172,8 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
-  nanostores@1.3.0:
-    resolution: {integrity: sha512-XPUa/jz+P1oJvN9VBxw4L9MtdFfaH3DAryqPssqhb2kXjmb9npz0dly6rCsgFWOPr4Yg9mTfM3MDZgZZ+7A3lA==}
+  nanostores@1.5.5:
+    resolution: {integrity: sha512-FixtE239Gl6Gz0ZGCK0WzvNwObNCIwVT+L7zQcf1QgcA6AzBxblzqe9OT88qiucNkhsjSOqiogSaF5jVbJiqSA==}
     engines: {node: ^20.0.0 || >=22.0.0}
 
   nanotar@0.3.0:
@@ -5921,6 +5935,9 @@ packages:
 
   set-cookie-parser@3.1.0:
     resolution: {integrity: sha512-kjnC1DXBHcxaOaOXBHBeRtltsDG2nUiUni+jP92M9gYdW12rsmx92UsfpH7o5tDRs7I1ZZPSQJQGv3UaRfCiuw==}
+
+  set-cookie-parser@3.1.3:
+    resolution: {integrity: sha512-xletSdAI5efyVJjsatBbzDkXl3M/Zmad3xfnQe7ZXuBB0yNwW7C2WFsNGjdRNfZunmNHQuX79xs/ACMTLCdcew==}
 
   setprototypeof@1.2.0:
     resolution: {integrity: sha512-E5LDX7Wrp85Kil5bhZv46j8jOeboKq5JMmYM3gVGdGH8xFpPWXUMsNrlODCrkoxMEeNi/XZIwuRvY4XNwYMJpw==}
@@ -7170,84 +7187,90 @@ snapshots:
       '@babel/helper-string-parser': 8.0.6
       '@babel/helper-validator-identifier': 8.0.6
 
-  '@better-auth/core@1.6.9(@better-auth/utils@0.4.0)(@better-fetch/fetch@1.1.21)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.5(zod@4.3.6))(jose@6.2.3)(kysely@0.28.16)(nanostores@1.3.0)':
+  '@better-auth/core@1.6.22(@better-auth/utils@0.4.2)(@better-fetch/fetch@1.3.1)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.7(zod@4.3.6))(jose@6.2.12)(kysely@0.29.6)(nanostores@1.5.5)':
     dependencies:
-      '@better-auth/utils': 0.4.0
-      '@better-fetch/fetch': 1.1.21
-      '@opentelemetry/semantic-conventions': 1.40.0
+      '@better-auth/utils': 0.4.2
+      '@better-fetch/fetch': 1.3.1
+      '@opentelemetry/semantic-conventions': 1.43.0
       '@standard-schema/spec': 1.1.0
-      better-call: 1.3.5(zod@4.3.6)
-      jose: 6.2.3
-      kysely: 0.28.16
-      nanostores: 1.3.0
+      better-call: 1.3.7(zod@4.3.6)
+      jose: 6.2.12
+      kysely: 0.29.6
+      nanostores: 1.5.5
       zod: 4.3.6
     optionalDependencies:
       '@cloudflare/workers-types': 4.20260426.1
 
-  '@better-auth/drizzle-adapter@1.6.9(@better-auth/core@1.6.9(@better-auth/utils@0.4.0)(@better-fetch/fetch@1.1.21)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.5(zod@4.3.6))(jose@6.2.3)(kysely@0.28.16)(nanostores@1.3.0))(@better-auth/utils@0.4.0)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.28.16)(postgres@3.4.9))':
+  '@better-auth/drizzle-adapter@1.6.22(@better-auth/core@1.6.22(@better-auth/utils@0.4.2)(@better-fetch/fetch@1.3.1)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.7(zod@4.3.6))(jose@6.2.12)(kysely@0.29.6)(nanostores@1.5.5))(@better-auth/utils@0.4.2)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.29.6)(postgres@3.4.9))':
     dependencies:
-      '@better-auth/core': 1.6.9(@better-auth/utils@0.4.0)(@better-fetch/fetch@1.1.21)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.5(zod@4.3.6))(jose@6.2.3)(kysely@0.28.16)(nanostores@1.3.0)
-      '@better-auth/utils': 0.4.0
+      '@better-auth/core': 1.6.22(@better-auth/utils@0.4.2)(@better-fetch/fetch@1.3.1)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.7(zod@4.3.6))(jose@6.2.12)(kysely@0.29.6)(nanostores@1.5.5)
+      '@better-auth/utils': 0.4.2
     optionalDependencies:
-      drizzle-orm: 0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.28.16)(postgres@3.4.9)
+      drizzle-orm: 0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.29.6)(postgres@3.4.9)
 
-  '@better-auth/infra@0.2.5(@better-auth/core@1.6.9(@better-auth/utils@0.4.0)(@better-fetch/fetch@1.1.21)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.5(zod@4.3.6))(jose@6.2.3)(kysely@0.28.16)(nanostores@1.3.0))(@better-auth/sso@1.6.9(@better-auth/core@1.6.9(@better-auth/utils@0.4.0)(@better-fetch/fetch@1.1.21)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.5(zod@4.3.6))(jose@6.2.3)(kysely@0.28.16)(nanostores@1.3.0))(@better-auth/utils@0.4.0)(@better-fetch/fetch@1.1.21)(better-auth@1.6.9(@cloudflare/workers-types@4.20260426.1)(drizzle-kit@0.31.10)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.28.16)(postgres@3.4.9))(vue@3.5.33(typescript@6.0.3)))(better-call@1.3.5(zod@4.3.6)))(better-auth@1.6.9(@cloudflare/workers-types@4.20260426.1)(drizzle-kit@0.31.10)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.28.16)(postgres@3.4.9))(vue@3.5.33(typescript@6.0.3)))(zod@4.3.6)':
+  '@better-auth/infra@0.2.5(@better-auth/core@1.6.22(@better-auth/utils@0.4.2)(@better-fetch/fetch@1.3.1)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.7(zod@4.3.6))(jose@6.2.12)(kysely@0.29.6)(nanostores@1.5.5))(@better-auth/sso@1.6.9(@better-auth/core@1.6.22(@better-auth/utils@0.4.2)(@better-fetch/fetch@1.3.1)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.7(zod@4.3.6))(jose@6.2.12)(kysely@0.29.6)(nanostores@1.5.5))(@better-auth/utils@0.4.2)(@better-fetch/fetch@1.3.1)(better-auth@1.6.22(@cloudflare/workers-types@4.20260426.1)(drizzle-kit@0.31.10)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.29.6)(postgres@3.4.9))(vue@3.5.33(typescript@6.0.3)))(better-call@1.3.7(zod@4.3.6)))(better-auth@1.6.22(@cloudflare/workers-types@4.20260426.1)(drizzle-kit@0.31.10)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.29.6)(postgres@3.4.9))(vue@3.5.33(typescript@6.0.3)))(zod@4.3.6)':
     dependencies:
-      '@better-auth/core': 1.6.9(@better-auth/utils@0.4.0)(@better-fetch/fetch@1.1.21)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.5(zod@4.3.6))(jose@6.2.3)(kysely@0.28.16)(nanostores@1.3.0)
-      '@better-auth/sso': 1.6.9(@better-auth/core@1.6.9(@better-auth/utils@0.4.0)(@better-fetch/fetch@1.1.21)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.5(zod@4.3.6))(jose@6.2.3)(kysely@0.28.16)(nanostores@1.3.0))(@better-auth/utils@0.4.0)(@better-fetch/fetch@1.1.21)(better-auth@1.6.9(@cloudflare/workers-types@4.20260426.1)(drizzle-kit@0.31.10)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.28.16)(postgres@3.4.9))(vue@3.5.33(typescript@6.0.3)))(better-call@1.3.5(zod@4.3.6))
+      '@better-auth/core': 1.6.22(@better-auth/utils@0.4.2)(@better-fetch/fetch@1.3.1)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.7(zod@4.3.6))(jose@6.2.12)(kysely@0.29.6)(nanostores@1.5.5)
+      '@better-auth/sso': 1.6.9(@better-auth/core@1.6.22(@better-auth/utils@0.4.2)(@better-fetch/fetch@1.3.1)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.7(zod@4.3.6))(jose@6.2.12)(kysely@0.29.6)(nanostores@1.5.5))(@better-auth/utils@0.4.2)(@better-fetch/fetch@1.3.1)(better-auth@1.6.22(@cloudflare/workers-types@4.20260426.1)(drizzle-kit@0.31.10)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.29.6)(postgres@3.4.9))(vue@3.5.33(typescript@6.0.3)))(better-call@1.3.7(zod@4.3.6))
       '@better-fetch/fetch': 1.1.21
-      better-auth: 1.6.9(@cloudflare/workers-types@4.20260426.1)(drizzle-kit@0.31.10)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.28.16)(postgres@3.4.9))(vue@3.5.33(typescript@6.0.3))
+      better-auth: 1.6.22(@cloudflare/workers-types@4.20260426.1)(drizzle-kit@0.31.10)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.29.6)(postgres@3.4.9))(vue@3.5.33(typescript@6.0.3))
       better-call: 1.3.5(zod@4.3.6)
       jose: 6.2.3
       libphonenumber-js: 1.12.42
       zod: 4.3.6
 
-  '@better-auth/kysely-adapter@1.6.9(@better-auth/core@1.6.9(@better-auth/utils@0.4.0)(@better-fetch/fetch@1.1.21)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.5(zod@4.3.6))(jose@6.2.3)(kysely@0.28.16)(nanostores@1.3.0))(@better-auth/utils@0.4.0)(kysely@0.28.16)':
+  '@better-auth/kysely-adapter@1.6.22(@better-auth/core@1.6.22(@better-auth/utils@0.4.2)(@better-fetch/fetch@1.3.1)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.7(zod@4.3.6))(jose@6.2.12)(kysely@0.29.6)(nanostores@1.5.5))(@better-auth/utils@0.4.2)(kysely@0.29.6)':
     dependencies:
-      '@better-auth/core': 1.6.9(@better-auth/utils@0.4.0)(@better-fetch/fetch@1.1.21)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.5(zod@4.3.6))(jose@6.2.3)(kysely@0.28.16)(nanostores@1.3.0)
-      '@better-auth/utils': 0.4.0
+      '@better-auth/core': 1.6.22(@better-auth/utils@0.4.2)(@better-fetch/fetch@1.3.1)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.7(zod@4.3.6))(jose@6.2.12)(kysely@0.29.6)(nanostores@1.5.5)
+      '@better-auth/utils': 0.4.2
     optionalDependencies:
-      kysely: 0.28.16
+      kysely: 0.29.6
 
-  '@better-auth/memory-adapter@1.6.9(@better-auth/core@1.6.9(@better-auth/utils@0.4.0)(@better-fetch/fetch@1.1.21)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.5(zod@4.3.6))(jose@6.2.3)(kysely@0.28.16)(nanostores@1.3.0))(@better-auth/utils@0.4.0)':
+  '@better-auth/memory-adapter@1.6.22(@better-auth/core@1.6.22(@better-auth/utils@0.4.2)(@better-fetch/fetch@1.3.1)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.7(zod@4.3.6))(jose@6.2.12)(kysely@0.29.6)(nanostores@1.5.5))(@better-auth/utils@0.4.2)':
     dependencies:
-      '@better-auth/core': 1.6.9(@better-auth/utils@0.4.0)(@better-fetch/fetch@1.1.21)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.5(zod@4.3.6))(jose@6.2.3)(kysely@0.28.16)(nanostores@1.3.0)
-      '@better-auth/utils': 0.4.0
+      '@better-auth/core': 1.6.22(@better-auth/utils@0.4.2)(@better-fetch/fetch@1.3.1)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.7(zod@4.3.6))(jose@6.2.12)(kysely@0.29.6)(nanostores@1.5.5)
+      '@better-auth/utils': 0.4.2
 
-  '@better-auth/mongo-adapter@1.6.9(@better-auth/core@1.6.9(@better-auth/utils@0.4.0)(@better-fetch/fetch@1.1.21)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.5(zod@4.3.6))(jose@6.2.3)(kysely@0.28.16)(nanostores@1.3.0))(@better-auth/utils@0.4.0)':
+  '@better-auth/mongo-adapter@1.6.22(@better-auth/core@1.6.22(@better-auth/utils@0.4.2)(@better-fetch/fetch@1.3.1)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.7(zod@4.3.6))(jose@6.2.12)(kysely@0.29.6)(nanostores@1.5.5))(@better-auth/utils@0.4.2)':
     dependencies:
-      '@better-auth/core': 1.6.9(@better-auth/utils@0.4.0)(@better-fetch/fetch@1.1.21)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.5(zod@4.3.6))(jose@6.2.3)(kysely@0.28.16)(nanostores@1.3.0)
-      '@better-auth/utils': 0.4.0
+      '@better-auth/core': 1.6.22(@better-auth/utils@0.4.2)(@better-fetch/fetch@1.3.1)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.7(zod@4.3.6))(jose@6.2.12)(kysely@0.29.6)(nanostores@1.5.5)
+      '@better-auth/utils': 0.4.2
 
-  '@better-auth/prisma-adapter@1.6.9(@better-auth/core@1.6.9(@better-auth/utils@0.4.0)(@better-fetch/fetch@1.1.21)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.5(zod@4.3.6))(jose@6.2.3)(kysely@0.28.16)(nanostores@1.3.0))(@better-auth/utils@0.4.0)':
+  '@better-auth/prisma-adapter@1.6.22(@better-auth/core@1.6.22(@better-auth/utils@0.4.2)(@better-fetch/fetch@1.3.1)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.7(zod@4.3.6))(jose@6.2.12)(kysely@0.29.6)(nanostores@1.5.5))(@better-auth/utils@0.4.2)':
     dependencies:
-      '@better-auth/core': 1.6.9(@better-auth/utils@0.4.0)(@better-fetch/fetch@1.1.21)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.5(zod@4.3.6))(jose@6.2.3)(kysely@0.28.16)(nanostores@1.3.0)
-      '@better-auth/utils': 0.4.0
+      '@better-auth/core': 1.6.22(@better-auth/utils@0.4.2)(@better-fetch/fetch@1.3.1)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.7(zod@4.3.6))(jose@6.2.12)(kysely@0.29.6)(nanostores@1.5.5)
+      '@better-auth/utils': 0.4.2
 
-  '@better-auth/sso@1.6.9(@better-auth/core@1.6.9(@better-auth/utils@0.4.0)(@better-fetch/fetch@1.1.21)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.5(zod@4.3.6))(jose@6.2.3)(kysely@0.28.16)(nanostores@1.3.0))(@better-auth/utils@0.4.0)(@better-fetch/fetch@1.1.21)(better-auth@1.6.9(@cloudflare/workers-types@4.20260426.1)(drizzle-kit@0.31.10)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.28.16)(postgres@3.4.9))(vue@3.5.33(typescript@6.0.3)))(better-call@1.3.5(zod@4.3.6))':
+  '@better-auth/sso@1.6.9(@better-auth/core@1.6.22(@better-auth/utils@0.4.2)(@better-fetch/fetch@1.3.1)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.7(zod@4.3.6))(jose@6.2.12)(kysely@0.29.6)(nanostores@1.5.5))(@better-auth/utils@0.4.2)(@better-fetch/fetch@1.3.1)(better-auth@1.6.22(@cloudflare/workers-types@4.20260426.1)(drizzle-kit@0.31.10)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.29.6)(postgres@3.4.9))(vue@3.5.33(typescript@6.0.3)))(better-call@1.3.7(zod@4.3.6))':
     dependencies:
-      '@better-auth/core': 1.6.9(@better-auth/utils@0.4.0)(@better-fetch/fetch@1.1.21)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.5(zod@4.3.6))(jose@6.2.3)(kysely@0.28.16)(nanostores@1.3.0)
-      '@better-auth/utils': 0.4.0
-      '@better-fetch/fetch': 1.1.21
-      better-auth: 1.6.9(@cloudflare/workers-types@4.20260426.1)(drizzle-kit@0.31.10)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.28.16)(postgres@3.4.9))(vue@3.5.33(typescript@6.0.3))
-      better-call: 1.3.5(zod@4.3.6)
+      '@better-auth/core': 1.6.22(@better-auth/utils@0.4.2)(@better-fetch/fetch@1.3.1)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.7(zod@4.3.6))(jose@6.2.12)(kysely@0.29.6)(nanostores@1.5.5)
+      '@better-auth/utils': 0.4.2
+      '@better-fetch/fetch': 1.3.1
+      better-auth: 1.6.22(@cloudflare/workers-types@4.20260426.1)(drizzle-kit@0.31.10)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.29.6)(postgres@3.4.9))(vue@3.5.33(typescript@6.0.3))
+      better-call: 1.3.7(zod@4.3.6)
       fast-xml-parser: 5.11.2
       jose: 6.2.12
       samlify: 2.10.2
       tldts: 6.1.86
       zod: 4.6.5
 
-  '@better-auth/telemetry@1.6.9(@better-auth/core@1.6.9(@better-auth/utils@0.4.0)(@better-fetch/fetch@1.1.21)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.5(zod@4.3.6))(jose@6.2.3)(kysely@0.28.16)(nanostores@1.3.0))(@better-auth/utils@0.4.0)(@better-fetch/fetch@1.1.21)':
+  '@better-auth/telemetry@1.6.22(@better-auth/core@1.6.22(@better-auth/utils@0.4.2)(@better-fetch/fetch@1.3.1)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.7(zod@4.3.6))(jose@6.2.12)(kysely@0.29.6)(nanostores@1.5.5))(@better-auth/utils@0.4.2)(@better-fetch/fetch@1.3.1)':
     dependencies:
-      '@better-auth/core': 1.6.9(@better-auth/utils@0.4.0)(@better-fetch/fetch@1.1.21)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.5(zod@4.3.6))(jose@6.2.3)(kysely@0.28.16)(nanostores@1.3.0)
-      '@better-auth/utils': 0.4.0
-      '@better-fetch/fetch': 1.1.21
+      '@better-auth/core': 1.6.22(@better-auth/utils@0.4.2)(@better-fetch/fetch@1.3.1)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.7(zod@4.3.6))(jose@6.2.12)(kysely@0.29.6)(nanostores@1.5.5)
+      '@better-auth/utils': 0.4.2
+      '@better-fetch/fetch': 1.3.1
 
-  '@better-auth/utils@0.4.0':
+  '@better-auth/utils@0.4.2':
     dependencies:
-      '@noble/hashes': 2.2.0
+      '@noble/hashes': 2.4.0
+
+  '@better-auth/utils@0.4.3':
+    dependencies:
+      '@noble/hashes': 2.4.0
 
   '@better-fetch/fetch@1.1.21': {}
+
+  '@better-fetch/fetch@1.3.1': {}
 
   '@bomb.sh/tab@0.0.19(cac@6.7.14)(citty@0.2.2)':
     optionalDependencies:
@@ -8147,9 +8170,9 @@ snapshots:
       '@tybys/wasm-util': 0.10.1
     optional: true
 
-  '@noble/ciphers@2.2.0': {}
+  '@noble/ciphers@2.4.0': {}
 
-  '@noble/hashes@2.2.0': {}
+  '@noble/hashes@2.4.0': {}
 
   '@nodable/entities@3.1.0': {}
 
@@ -8253,7 +8276,7 @@ snapshots:
       pkg-types: 2.3.3
       semver: 7.8.5
 
-  '@nuxt/devtools@3.4.2(db0@0.3.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.28.16)(postgres@3.4.9)))(ioredis@5.10.1)(magic-string@1.4.3)(rolldown@1.2.13)(unplugin@3.4.0(esbuild@0.28.2)(rolldown@1.2.13)(rollup@4.64.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3)))(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))(vue@3.5.43(typescript@6.0.3))':
+  '@nuxt/devtools@3.4.2(db0@0.3.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.29.6)(postgres@3.4.9)))(ioredis@5.10.1)(magic-string@1.4.3)(rolldown@1.2.13)(unplugin@3.4.0(esbuild@0.28.2)(rolldown@1.2.13)(rollup@4.64.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3)))(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))(vue@3.5.43(typescript@6.0.3))':
     dependencies:
       '@nuxt/devtools-kit': 3.4.2(magic-string@1.4.3)(magicast@0.5.5)(rolldown@1.2.13)(unplugin@3.4.0(esbuild@0.28.2)(rolldown@1.2.13)(rollup@4.64.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3)))(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))
       '@nuxt/devtools-wizard': 3.4.2
@@ -8283,7 +8306,7 @@ snapshots:
       sirv: 3.0.2
       structured-clone-es: 2.0.1
       tinyglobby: 0.2.17
-      unstorage: 1.17.5(db0@0.3.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.28.16)(postgres@3.4.9)))(ioredis@5.10.1)
+      unstorage: 1.17.5(db0@0.3.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.29.6)(postgres@3.4.9)))(ioredis@5.10.1)
       vite: 8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3)
       vite-plugin-inspect: 11.4.1(@nuxt/kit@4.5.1(magic-string@1.4.3)(magicast@0.5.5)(rolldown@1.2.13)(unplugin@3.4.0(esbuild@0.28.2)(rolldown@1.2.13)(rollup@4.64.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))))(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))
       vite-plugin-vue-tracer: 1.5.0(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))(vue@3.5.43(typescript@6.0.3))
@@ -8327,13 +8350,13 @@ snapshots:
       - supports-color
       - typescript
 
-  '@nuxt/fonts@0.14.0(db0@0.3.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.28.16)(postgres@3.4.9)))(ioredis@5.10.1)(magicast@0.5.5)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))':
+  '@nuxt/fonts@0.14.0(db0@0.3.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.29.6)(postgres@3.4.9)))(ioredis@5.10.1)(magicast@0.5.5)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))':
     dependencies:
       '@nuxt/devtools-kit': 3.2.4(magicast@0.5.5)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))
       '@nuxt/kit': 4.4.2(magicast@0.5.5)
       consola: 3.4.2
       defu: 6.1.7
-      fontless: 0.2.1(db0@0.3.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.28.16)(postgres@3.4.9)))(ioredis@5.10.1)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))
+      fontless: 0.2.1(db0@0.3.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.29.6)(postgres@3.4.9)))(ioredis@5.10.1)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))
       h3: 1.15.11
       magic-regexp: 0.10.0
       ofetch: 1.5.1
@@ -8343,7 +8366,7 @@ snapshots:
       ufo: 1.6.4
       unifont: 0.7.4
       unplugin: 3.0.0
-      unstorage: 1.17.5(db0@0.3.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.28.16)(postgres@3.4.9)))(ioredis@5.10.1)
+      unstorage: 1.17.5(db0@0.3.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.29.6)(postgres@3.4.9)))(ioredis@5.10.1)
     transitivePeerDependencies:
       - '@azure/app-configuration'
       - '@azure/cosmos'
@@ -8501,7 +8524,7 @@ snapshots:
       - magic-string
       - unplugin
 
-  '@nuxt/nitro-server@4.5.1(e65a1c29e53e2897f37885d32318efda)':
+  '@nuxt/nitro-server@4.5.1(5e038f3da35e0f44d06f36c55313b3cc)':
     dependencies:
       '@nuxt/devalue': 2.0.2
       '@nuxt/kit': 4.5.1(magic-string@1.4.3)(magicast@0.5.5)(rolldown@1.2.13)(unplugin@3.4.0(esbuild@0.28.2)(rolldown@1.2.13)(rollup@4.64.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3)))
@@ -8518,9 +8541,9 @@ snapshots:
       impound: 1.2.0(esbuild@0.28.2)(rolldown@1.2.13)(rollup@4.64.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))
       klona: 2.0.6
       mocked-exports: 0.1.1
-      nitropack: 2.13.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.28.16)(postgres@3.4.9))(rolldown@1.2.13)(srvx@0.11.22)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))
+      nitropack: 2.13.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.29.6)(postgres@3.4.9))(rolldown@1.2.13)(srvx@0.11.22)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))
       nostics: 1.3.0
-      nuxt: 4.5.1(@babel/plugin-syntax-jsx@7.29.7(@babel/core@7.29.7))(@babel/plugin-syntax-typescript@7.29.7(@babel/core@7.29.7))(@electric-sql/pglite@0.4.5)(@oxc-project/types@0.153.0)(@vue/compiler-sfc@3.5.43)(cac@6.7.14)(confbox@0.3.1)(db0@0.3.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.28.16)(postgres@3.4.9)))(dotenv@17.4.2)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.28.16)(postgres@3.4.9))(esbuild@0.28.2)(eslint@9.39.4(jiti@2.7.0))(giget@3.3.1)(ioredis@5.10.1)(lightningcss@1.33.0)(magicast@0.5.5)(optionator@0.9.4)(rollup-plugin-visualizer@7.1.1(rolldown@1.0.0-beta.57(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0))(rollup@4.64.3))(rollup@4.64.3)(srvx@0.11.22)(terser@5.51.2)(tsx@4.21.0)(typescript@6.0.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))(vue-tsc@3.2.7(typescript@6.0.3))(yaml@2.8.3)
+      nuxt: 4.5.1(@babel/plugin-syntax-jsx@7.29.7(@babel/core@7.29.7))(@babel/plugin-syntax-typescript@7.29.7(@babel/core@7.29.7))(@electric-sql/pglite@0.4.5)(@oxc-project/types@0.153.0)(@vue/compiler-sfc@3.5.43)(cac@6.7.14)(confbox@0.3.1)(db0@0.3.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.29.6)(postgres@3.4.9)))(dotenv@17.4.2)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.29.6)(postgres@3.4.9))(esbuild@0.28.2)(eslint@9.39.4(jiti@2.7.0))(giget@3.3.1)(ioredis@5.10.1)(lightningcss@1.33.0)(magicast@0.5.5)(optionator@0.9.4)(rollup-plugin-visualizer@7.1.1(rolldown@1.2.13)(rollup@4.64.3))(rollup@4.64.3)(srvx@0.11.22)(terser@5.51.2)(tsx@4.21.0)(typescript@6.0.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))(vue-tsc@3.2.7(typescript@6.0.3))(yaml@2.8.3)
       nypm: 0.6.10
       ohash: 2.0.12
       pathe: 2.0.3
@@ -8528,7 +8551,7 @@ snapshots:
       std-env: 4.3.0
       ufo: 1.6.4
       unctx: 3.0.1(magic-string@1.4.3)(rolldown@1.2.13)(unplugin@3.4.0(esbuild@0.28.2)(rolldown@1.2.13)(rollup@4.64.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3)))
-      unstorage: 1.17.5(db0@0.3.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.28.16)(postgres@3.4.9)))(ioredis@5.10.1)
+      unstorage: 1.17.5(db0@0.3.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.29.6)(postgres@3.4.9)))(ioredis@5.10.1)
       vue: 3.5.43(typescript@6.0.3)
       vue-bundle-renderer: 2.4.0
       vue-devtools-stub: 0.1.0
@@ -8613,11 +8636,11 @@ snapshots:
       rc9: 3.1.0
       std-env: 4.3.0
 
-  '@nuxt/ui@4.7.1(@internationalized/date@3.12.1)(@internationalized/number@3.6.6)(@tiptap/extensions@3.22.5(@tiptap/core@3.22.5(@tiptap/pm@3.22.5))(@tiptap/pm@3.22.5))(@tiptap/y-tiptap@3.0.1(prosemirror-model@1.25.4)(prosemirror-state@1.4.4)(prosemirror-view@1.41.8)(y-protocols@1.0.7(yjs@13.6.28))(yjs@13.6.28))(db0@0.3.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.28.16)(postgres@3.4.9)))(embla-carousel@8.6.0)(ioredis@5.10.1)(magicast@0.5.5)(tailwindcss@4.2.4)(typescript@6.0.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))(vue-router@5.0.6(@vue/compiler-sfc@3.5.43)(vue@3.5.33(typescript@6.0.3)))(vue@3.5.33(typescript@6.0.3))(yjs@13.6.28)(zod@4.3.6)':
+  '@nuxt/ui@4.7.1(@internationalized/date@3.12.1)(@internationalized/number@3.6.6)(@tiptap/extensions@3.22.5(@tiptap/core@3.22.5(@tiptap/pm@3.22.5))(@tiptap/pm@3.22.5))(@tiptap/y-tiptap@3.0.1(prosemirror-model@1.25.4)(prosemirror-state@1.4.4)(prosemirror-view@1.41.8)(y-protocols@1.0.7(yjs@13.6.28))(yjs@13.6.28))(db0@0.3.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.29.6)(postgres@3.4.9)))(embla-carousel@8.6.0)(ioredis@5.10.1)(magicast@0.5.5)(tailwindcss@4.2.4)(typescript@6.0.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))(vue-router@5.0.6(@vue/compiler-sfc@3.5.43)(vue@3.5.33(typescript@6.0.3)))(vue@3.5.33(typescript@6.0.3))(yjs@13.6.28)(zod@4.3.6)':
     dependencies:
       '@floating-ui/dom': 1.7.6
       '@iconify/vue': 5.0.0(vue@3.5.33(typescript@6.0.3))
-      '@nuxt/fonts': 0.14.0(db0@0.3.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.28.16)(postgres@3.4.9)))(ioredis@5.10.1)(magicast@0.5.5)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))
+      '@nuxt/fonts': 0.14.0(db0@0.3.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.29.6)(postgres@3.4.9)))(ioredis@5.10.1)(magicast@0.5.5)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))
       '@nuxt/icon': 2.2.1(magicast@0.5.5)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))(vue@3.5.33(typescript@6.0.3))
       '@nuxt/kit': 4.4.2(magicast@0.5.5)
       '@nuxt/schema': 4.4.2
@@ -8726,7 +8749,7 @@ snapshots:
       - vue
       - yjs
 
-  '@nuxt/vite-builder@4.5.1(84bd90c4875c425cd61176c6a2cf33e5)':
+  '@nuxt/vite-builder@4.5.1(afe94bacd731b2e6fa002ffae7a00280)':
     dependencies:
       '@nuxt/kit': 4.5.1(magic-string@1.4.3)(magicast@0.5.5)(rolldown@1.2.13)(unplugin@3.4.0(esbuild@0.28.2)(rolldown@1.2.13)(rollup@4.64.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3)))
       '@vitejs/plugin-vue': 6.0.9(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))(vue@3.5.43(typescript@6.0.3))
@@ -8744,7 +8767,7 @@ snapshots:
       knitwork: 1.3.0
       mlly: 1.8.2
       mocked-exports: 0.1.1
-      nuxt: 4.5.1(@babel/plugin-syntax-jsx@7.29.7(@babel/core@7.29.7))(@babel/plugin-syntax-typescript@7.29.7(@babel/core@7.29.7))(@electric-sql/pglite@0.4.5)(@oxc-project/types@0.153.0)(@vue/compiler-sfc@3.5.43)(cac@6.7.14)(confbox@0.3.1)(db0@0.3.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.28.16)(postgres@3.4.9)))(dotenv@17.4.2)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.28.16)(postgres@3.4.9))(esbuild@0.28.2)(eslint@9.39.4(jiti@2.7.0))(giget@3.3.1)(ioredis@5.10.1)(lightningcss@1.33.0)(magicast@0.5.5)(optionator@0.9.4)(rollup-plugin-visualizer@7.1.1(rolldown@1.0.0-beta.57(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0))(rollup@4.64.3))(rollup@4.64.3)(srvx@0.11.22)(terser@5.51.2)(tsx@4.21.0)(typescript@6.0.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))(vue-tsc@3.2.7(typescript@6.0.3))(yaml@2.8.3)
+      nuxt: 4.5.1(@babel/plugin-syntax-jsx@7.29.7(@babel/core@7.29.7))(@babel/plugin-syntax-typescript@7.29.7(@babel/core@7.29.7))(@electric-sql/pglite@0.4.5)(@oxc-project/types@0.153.0)(@vue/compiler-sfc@3.5.43)(cac@6.7.14)(confbox@0.3.1)(db0@0.3.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.29.6)(postgres@3.4.9)))(dotenv@17.4.2)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.29.6)(postgres@3.4.9))(esbuild@0.28.2)(eslint@9.39.4(jiti@2.7.0))(giget@3.3.1)(ioredis@5.10.1)(lightningcss@1.33.0)(magicast@0.5.5)(optionator@0.9.4)(rollup-plugin-visualizer@7.1.1(rolldown@1.2.13)(rollup@4.64.3))(rollup@4.64.3)(srvx@0.11.22)(terser@5.51.2)(tsx@4.21.0)(typescript@6.0.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))(vue-tsc@3.2.7(typescript@6.0.3))(yaml@2.8.3)
       nypm: 0.6.10
       pathe: 2.0.3
       pkg-types: 2.3.3
@@ -8762,7 +8785,7 @@ snapshots:
     optionalDependencies:
       '@babel/plugin-syntax-jsx': 7.29.7(@babel/core@7.29.7)
       rolldown: 1.2.13
-      rollup-plugin-visualizer: 7.1.1(rolldown@1.0.0-beta.57(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0))(rollup@4.64.3)
+      rollup-plugin-visualizer: 7.1.1(rolldown@1.2.13)(rollup@4.64.3)
     transitivePeerDependencies:
       - '@biomejs/biome'
       - '@types/node'
@@ -8789,7 +8812,7 @@ snapshots:
       - vue-tsc
       - yaml
 
-  '@nuxthub/core@0.10.7(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(db0@0.3.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.28.16)(postgres@3.4.9)))(ioredis@5.10.1)(magicast@0.5.5)(typescript@6.0.3)(vue-tsc@3.2.7(typescript@6.0.3))':
+  '@nuxthub/core@0.10.7(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(db0@0.3.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.29.6)(postgres@3.4.9)))(ioredis@5.10.1)(magicast@0.5.5)(typescript@6.0.3)(vue-tsc@3.2.7(typescript@6.0.3))':
     dependencies:
       '@cloudflare/workers-types': 4.20260426.1
       '@nuxt/kit': 4.4.2(magicast@0.5.5)
@@ -8814,7 +8837,7 @@ snapshots:
       tsdown: 0.18.4(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(typescript@6.0.3)(vue-tsc@3.2.7(typescript@6.0.3))
       ufo: 1.6.4
       uncrypto: 0.1.3
-      unstorage: 1.17.5(db0@0.3.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.28.16)(postgres@3.4.9)))(ioredis@5.10.1)
+      unstorage: 1.17.5(db0@0.3.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.29.6)(postgres@3.4.9)))(ioredis@5.10.1)
       zod: 4.3.6
     transitivePeerDependencies:
       - '@arethetypeswrong/core'
@@ -8860,7 +8883,7 @@ snapshots:
     transitivePeerDependencies:
       - magicast
 
-  '@opentelemetry/semantic-conventions@1.40.0': {}
+  '@opentelemetry/semantic-conventions@1.43.0': {}
 
   '@oxc-project/types@0.103.0': {}
 
@@ -9654,11 +9677,11 @@ snapshots:
       '@typescript-eslint/types': 8.59.1
       eslint-visitor-keys: 5.0.1
 
-  '@unhead/bundler@3.4.2(@oxc-project/types@0.153.0)(esbuild@0.28.2)(lightningcss@1.33.0)(rolldown@1.2.13)(rollup@4.64.3)(unhead@3.4.2(esbuild@0.28.2)(rolldown@1.0.0-beta.57(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0))(rollup@4.64.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3)))(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))':
+  '@unhead/bundler@3.4.2(@oxc-project/types@0.153.0)(esbuild@0.28.2)(lightningcss@1.33.0)(rolldown@1.2.13)(rollup@4.64.3)(unhead@3.4.2(esbuild@0.28.2)(rolldown@1.2.13)(rollup@4.64.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3)))(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))':
     dependencies:
       magic-string: 1.4.3
       oxc-walker: 1.1.1(@oxc-project/types@0.153.0)(rolldown@1.2.13)
-      unhead: 3.4.2(esbuild@0.28.2)(rolldown@1.0.0-beta.57(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0))(rollup@4.64.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))
+      unhead: 3.4.2(esbuild@0.28.2)(rolldown@1.2.13)(rollup@4.64.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))
       unplugin: 3.4.0(esbuild@0.28.2)(rolldown@1.2.13)(rollup@4.64.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))
     optionalDependencies:
       esbuild: 0.28.2
@@ -9682,7 +9705,7 @@ snapshots:
 
   '@unhead/vue@3.4.2(@oxc-project/types@0.153.0)(esbuild@0.28.2)(lightningcss@1.33.0)(rolldown@1.2.13)(rollup@4.64.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))(vue@3.5.43(typescript@6.0.3))':
     dependencies:
-      '@unhead/bundler': 3.4.2(@oxc-project/types@0.153.0)(esbuild@0.28.2)(lightningcss@1.33.0)(rolldown@1.2.13)(rollup@4.64.3)(unhead@3.4.2(esbuild@0.28.2)(rolldown@1.0.0-beta.57(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0))(rollup@4.64.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3)))(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))
+      '@unhead/bundler': 3.4.2(@oxc-project/types@0.153.0)(esbuild@0.28.2)(lightningcss@1.33.0)(rolldown@1.2.13)(rollup@4.64.3)(unhead@3.4.2(esbuild@0.28.2)(rolldown@1.2.13)(rollup@4.64.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3)))(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))
       hookable: 6.1.2
       unhead: 3.4.2(esbuild@0.28.2)(rolldown@1.2.13)(rollup@4.64.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))
       unplugin: 3.4.0(esbuild@0.28.2)(rolldown@1.2.13)(rollup@4.64.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))
@@ -10217,28 +10240,28 @@ snapshots:
 
   baseline-browser-mapping@2.11.28: {}
 
-  better-auth@1.6.9(@cloudflare/workers-types@4.20260426.1)(drizzle-kit@0.31.10)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.28.16)(postgres@3.4.9))(vue@3.5.33(typescript@6.0.3)):
+  better-auth@1.6.22(@cloudflare/workers-types@4.20260426.1)(drizzle-kit@0.31.10)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.29.6)(postgres@3.4.9))(vue@3.5.33(typescript@6.0.3)):
     dependencies:
-      '@better-auth/core': 1.6.9(@better-auth/utils@0.4.0)(@better-fetch/fetch@1.1.21)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.5(zod@4.3.6))(jose@6.2.3)(kysely@0.28.16)(nanostores@1.3.0)
-      '@better-auth/drizzle-adapter': 1.6.9(@better-auth/core@1.6.9(@better-auth/utils@0.4.0)(@better-fetch/fetch@1.1.21)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.5(zod@4.3.6))(jose@6.2.3)(kysely@0.28.16)(nanostores@1.3.0))(@better-auth/utils@0.4.0)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.28.16)(postgres@3.4.9))
-      '@better-auth/kysely-adapter': 1.6.9(@better-auth/core@1.6.9(@better-auth/utils@0.4.0)(@better-fetch/fetch@1.1.21)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.5(zod@4.3.6))(jose@6.2.3)(kysely@0.28.16)(nanostores@1.3.0))(@better-auth/utils@0.4.0)(kysely@0.28.16)
-      '@better-auth/memory-adapter': 1.6.9(@better-auth/core@1.6.9(@better-auth/utils@0.4.0)(@better-fetch/fetch@1.1.21)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.5(zod@4.3.6))(jose@6.2.3)(kysely@0.28.16)(nanostores@1.3.0))(@better-auth/utils@0.4.0)
-      '@better-auth/mongo-adapter': 1.6.9(@better-auth/core@1.6.9(@better-auth/utils@0.4.0)(@better-fetch/fetch@1.1.21)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.5(zod@4.3.6))(jose@6.2.3)(kysely@0.28.16)(nanostores@1.3.0))(@better-auth/utils@0.4.0)
-      '@better-auth/prisma-adapter': 1.6.9(@better-auth/core@1.6.9(@better-auth/utils@0.4.0)(@better-fetch/fetch@1.1.21)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.5(zod@4.3.6))(jose@6.2.3)(kysely@0.28.16)(nanostores@1.3.0))(@better-auth/utils@0.4.0)
-      '@better-auth/telemetry': 1.6.9(@better-auth/core@1.6.9(@better-auth/utils@0.4.0)(@better-fetch/fetch@1.1.21)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.5(zod@4.3.6))(jose@6.2.3)(kysely@0.28.16)(nanostores@1.3.0))(@better-auth/utils@0.4.0)(@better-fetch/fetch@1.1.21)
-      '@better-auth/utils': 0.4.0
-      '@better-fetch/fetch': 1.1.21
-      '@noble/ciphers': 2.2.0
-      '@noble/hashes': 2.2.0
-      better-call: 1.3.5(zod@4.3.6)
+      '@better-auth/core': 1.6.22(@better-auth/utils@0.4.2)(@better-fetch/fetch@1.3.1)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.7(zod@4.3.6))(jose@6.2.12)(kysely@0.29.6)(nanostores@1.5.5)
+      '@better-auth/drizzle-adapter': 1.6.22(@better-auth/core@1.6.22(@better-auth/utils@0.4.2)(@better-fetch/fetch@1.3.1)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.7(zod@4.3.6))(jose@6.2.12)(kysely@0.29.6)(nanostores@1.5.5))(@better-auth/utils@0.4.2)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.29.6)(postgres@3.4.9))
+      '@better-auth/kysely-adapter': 1.6.22(@better-auth/core@1.6.22(@better-auth/utils@0.4.2)(@better-fetch/fetch@1.3.1)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.7(zod@4.3.6))(jose@6.2.12)(kysely@0.29.6)(nanostores@1.5.5))(@better-auth/utils@0.4.2)(kysely@0.29.6)
+      '@better-auth/memory-adapter': 1.6.22(@better-auth/core@1.6.22(@better-auth/utils@0.4.2)(@better-fetch/fetch@1.3.1)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.7(zod@4.3.6))(jose@6.2.12)(kysely@0.29.6)(nanostores@1.5.5))(@better-auth/utils@0.4.2)
+      '@better-auth/mongo-adapter': 1.6.22(@better-auth/core@1.6.22(@better-auth/utils@0.4.2)(@better-fetch/fetch@1.3.1)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.7(zod@4.3.6))(jose@6.2.12)(kysely@0.29.6)(nanostores@1.5.5))(@better-auth/utils@0.4.2)
+      '@better-auth/prisma-adapter': 1.6.22(@better-auth/core@1.6.22(@better-auth/utils@0.4.2)(@better-fetch/fetch@1.3.1)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.7(zod@4.3.6))(jose@6.2.12)(kysely@0.29.6)(nanostores@1.5.5))(@better-auth/utils@0.4.2)
+      '@better-auth/telemetry': 1.6.22(@better-auth/core@1.6.22(@better-auth/utils@0.4.2)(@better-fetch/fetch@1.3.1)(@cloudflare/workers-types@4.20260426.1)(better-call@1.3.7(zod@4.3.6))(jose@6.2.12)(kysely@0.29.6)(nanostores@1.5.5))(@better-auth/utils@0.4.2)(@better-fetch/fetch@1.3.1)
+      '@better-auth/utils': 0.4.2
+      '@better-fetch/fetch': 1.3.1
+      '@noble/ciphers': 2.4.0
+      '@noble/hashes': 2.4.0
+      better-call: 1.3.7(zod@4.3.6)
       defu: 6.1.7
-      jose: 6.2.3
-      kysely: 0.28.16
-      nanostores: 1.3.0
+      jose: 6.2.12
+      kysely: 0.29.6
+      nanostores: 1.5.5
       zod: 4.3.6
     optionalDependencies:
       drizzle-kit: 0.31.10
-      drizzle-orm: 0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.28.16)(postgres@3.4.9)
+      drizzle-orm: 0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.29.6)(postgres@3.4.9)
       vue: 3.5.33(typescript@6.0.3)
     transitivePeerDependencies:
       - '@cloudflare/workers-types'
@@ -10246,10 +10269,19 @@ snapshots:
 
   better-call@1.3.5(zod@4.3.6):
     dependencies:
-      '@better-auth/utils': 0.4.0
+      '@better-auth/utils': 0.4.3
       '@better-fetch/fetch': 1.1.21
       rou3: 0.7.12
       set-cookie-parser: 3.1.0
+    optionalDependencies:
+      zod: 4.3.6
+
+  better-call@1.3.7(zod@4.3.6):
+    dependencies:
+      '@better-auth/utils': 0.4.2
+      '@better-fetch/fetch': 1.3.1
+      rou3: 0.7.12
+      set-cookie-parser: 3.1.3
     optionalDependencies:
       zod: 4.3.6
 
@@ -10527,10 +10559,10 @@ snapshots:
 
   csstype@3.2.3: {}
 
-  db0@0.3.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.28.16)(postgres@3.4.9)):
+  db0@0.3.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.29.6)(postgres@3.4.9)):
     optionalDependencies:
       '@electric-sql/pglite': 0.4.5
-      drizzle-orm: 0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.28.16)(postgres@3.4.9)
+      drizzle-orm: 0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.29.6)(postgres@3.4.9)
 
   debug@4.4.3:
     dependencies:
@@ -10604,11 +10636,11 @@ snapshots:
       esbuild: 0.25.12
       tsx: 4.21.0
 
-  drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.28.16)(postgres@3.4.9):
+  drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.29.6)(postgres@3.4.9):
     optionalDependencies:
       '@cloudflare/workers-types': 4.20260426.1
       '@electric-sql/pglite': 0.4.5
-      kysely: 0.28.16
+      kysely: 0.29.6
       postgres: 3.4.9
 
   dts-resolver@2.1.3: {}
@@ -11186,7 +11218,7 @@ snapshots:
     dependencies:
       tiny-inflate: 1.0.3
 
-  fontless@0.2.1(db0@0.3.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.28.16)(postgres@3.4.9)))(ioredis@5.10.1)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3)):
+  fontless@0.2.1(db0@0.3.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.29.6)(postgres@3.4.9)))(ioredis@5.10.1)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3)):
     dependencies:
       consola: 3.4.2
       css-tree: 3.2.1
@@ -11200,7 +11232,7 @@ snapshots:
       pathe: 2.0.3
       ufo: 1.6.4
       unifont: 0.7.4
-      unstorage: 1.17.5(db0@0.3.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.28.16)(postgres@3.4.9)))(ioredis@5.10.1)
+      unstorage: 1.17.5(db0@0.3.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.29.6)(postgres@3.4.9)))(ioredis@5.10.1)
     optionalDependencies:
       vite: 8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3)
     transitivePeerDependencies:
@@ -11571,7 +11603,7 @@ snapshots:
 
   knitwork@1.3.0: {}
 
-  kysely@0.28.16: {}
+  kysely@0.29.6: {}
 
   launch-editor@2.14.2:
     dependencies:
@@ -11928,7 +11960,7 @@ snapshots:
 
   nanoid@3.3.20: {}
 
-  nanostores@1.3.0: {}
+  nanostores@1.5.5: {}
 
   nanotar@0.3.0: {}
 
@@ -11938,7 +11970,7 @@ snapshots:
 
   negotiator@1.0.0: {}
 
-  nitropack@2.13.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.28.16)(postgres@3.4.9))(rolldown@1.2.13)(srvx@0.11.22)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3)):
+  nitropack@2.13.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.29.6)(postgres@3.4.9))(rolldown@1.2.13)(srvx@0.11.22)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3)):
     dependencies:
       '@cloudflare/kv-asset-handler': 0.4.2
       '@rollup/plugin-alias': 6.0.0(rollup@4.64.3)
@@ -11959,7 +11991,7 @@ snapshots:
       cookie-es: 2.0.1
       croner: 10.0.1
       crossws: 0.3.5
-      db0: 0.3.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.28.16)(postgres@3.4.9))
+      db0: 0.3.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.29.6)(postgres@3.4.9))
       defu: 6.1.7
       destr: 2.0.5
       dot-prop: 10.2.0
@@ -12005,7 +12037,7 @@ snapshots:
       unenv: 2.0.0-rc.24
       unimport: 6.5.0(esbuild@0.28.2)(rolldown@1.2.13)(rollup@4.64.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))
       unplugin-utils: 0.3.2
-      unstorage: 1.17.5(db0@0.3.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.28.16)(postgres@3.4.9)))(ioredis@5.10.1)
+      unstorage: 1.17.5(db0@0.3.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.29.6)(postgres@3.4.9)))(ioredis@5.10.1)
       untyped: 2.0.0
       unwasm: 0.5.3
       youch: 4.1.1
@@ -12112,16 +12144,16 @@ snapshots:
     dependencies:
       boolbase: 1.0.0
 
-  nuxt@4.5.1(@babel/plugin-syntax-jsx@7.29.7(@babel/core@7.29.7))(@babel/plugin-syntax-typescript@7.29.7(@babel/core@7.29.7))(@electric-sql/pglite@0.4.5)(@oxc-project/types@0.153.0)(@vue/compiler-sfc@3.5.43)(cac@6.7.14)(confbox@0.3.1)(db0@0.3.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.28.16)(postgres@3.4.9)))(dotenv@17.4.2)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.28.16)(postgres@3.4.9))(esbuild@0.28.2)(eslint@9.39.4(jiti@2.7.0))(giget@3.3.1)(ioredis@5.10.1)(lightningcss@1.33.0)(magicast@0.5.5)(optionator@0.9.4)(rollup-plugin-visualizer@7.1.1(rolldown@1.0.0-beta.57(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0))(rollup@4.64.3))(rollup@4.64.3)(srvx@0.11.22)(terser@5.51.2)(tsx@4.21.0)(typescript@6.0.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))(vue-tsc@3.2.7(typescript@6.0.3))(yaml@2.8.3):
+  nuxt@4.5.1(@babel/plugin-syntax-jsx@7.29.7(@babel/core@7.29.7))(@babel/plugin-syntax-typescript@7.29.7(@babel/core@7.29.7))(@electric-sql/pglite@0.4.5)(@oxc-project/types@0.153.0)(@vue/compiler-sfc@3.5.43)(cac@6.7.14)(confbox@0.3.1)(db0@0.3.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.29.6)(postgres@3.4.9)))(dotenv@17.4.2)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.29.6)(postgres@3.4.9))(esbuild@0.28.2)(eslint@9.39.4(jiti@2.7.0))(giget@3.3.1)(ioredis@5.10.1)(lightningcss@1.33.0)(magicast@0.5.5)(optionator@0.9.4)(rollup-plugin-visualizer@7.1.1(rolldown@1.2.13)(rollup@4.64.3))(rollup@4.64.3)(srvx@0.11.22)(terser@5.51.2)(tsx@4.21.0)(typescript@6.0.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))(vue-tsc@3.2.7(typescript@6.0.3))(yaml@2.8.3):
     dependencies:
       '@dxup/nuxt': 0.5.10(@nuxt/schema@4.5.1)(confbox@0.3.1)(dotenv@17.4.2)(esbuild@0.28.2)(giget@3.3.1)(jiti@2.7.0)(mlly@1.8.2)(rolldown@1.2.13)(rollup@4.64.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))
       '@nuxt/cli': 3.37.0(@nuxt/schema@4.5.1)(cac@6.7.14)(magicast@0.5.5)
-      '@nuxt/devtools': 3.4.2(db0@0.3.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.28.16)(postgres@3.4.9)))(ioredis@5.10.1)(magic-string@1.4.3)(rolldown@1.2.13)(unplugin@3.4.0(esbuild@0.28.2)(rolldown@1.2.13)(rollup@4.64.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3)))(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))(vue@3.5.43(typescript@6.0.3))
+      '@nuxt/devtools': 3.4.2(db0@0.3.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.29.6)(postgres@3.4.9)))(ioredis@5.10.1)(magic-string@1.4.3)(rolldown@1.2.13)(unplugin@3.4.0(esbuild@0.28.2)(rolldown@1.2.13)(rollup@4.64.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3)))(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))(vue@3.5.43(typescript@6.0.3))
       '@nuxt/kit': 4.5.1(magic-string@1.4.3)(magicast@0.5.5)(rolldown@1.2.13)(unplugin@3.4.0(esbuild@0.28.2)(rolldown@1.2.13)(rollup@4.64.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3)))
-      '@nuxt/nitro-server': 4.5.1(e65a1c29e53e2897f37885d32318efda)
+      '@nuxt/nitro-server': 4.5.1(5e038f3da35e0f44d06f36c55313b3cc)
       '@nuxt/schema': 4.5.1
       '@nuxt/telemetry': 2.9.1(@nuxt/kit@4.5.1(magic-string@1.4.3)(magicast@0.5.5)(rolldown@1.2.13)(unplugin@3.4.0(esbuild@0.28.2)(rolldown@1.2.13)(rollup@4.64.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))))
-      '@nuxt/vite-builder': 4.5.1(84bd90c4875c425cd61176c6a2cf33e5)
+      '@nuxt/vite-builder': 4.5.1(afe94bacd731b2e6fa002ffae7a00280)
       '@unhead/vue': 3.4.2(@oxc-project/types@0.153.0)(esbuild@0.28.2)(lightningcss@1.33.0)(rolldown@1.2.13)(rollup@4.64.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))(vue@3.5.43(typescript@6.0.3))
       '@vue/shared': 3.5.43
       chokidar: 5.0.0
@@ -12167,7 +12199,7 @@ snapshots:
       undici: 8.11.2
       unhead: 3.4.2(esbuild@0.28.2)(rolldown@1.2.13)(rollup@4.64.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))
       unimport: 6.5.0(esbuild@0.28.2)(rolldown@1.2.13)(rollup@4.64.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))
-      unplugin: 3.4.0(esbuild@0.28.2)(rolldown@1.0.0-beta.57(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0))(rollup@4.64.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))
+      unplugin: 3.4.0(esbuild@0.28.2)(rolldown@1.2.13)(rollup@4.64.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))
       unrouting: 0.2.3
       untyped: 2.0.0
       verkit: 0.2.0
@@ -12869,17 +12901,6 @@ snapshots:
       '@rolldown/binding-win32-arm64-msvc': 1.2.13
       '@rolldown/binding-win32-x64-msvc': 1.2.13
 
-  rollup-plugin-visualizer@7.1.1(rolldown@1.0.0-beta.57(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0))(rollup@4.64.3):
-    dependencies:
-      open: 11.0.4
-      picomatch: 4.0.7
-      source-map: 0.8.0
-      yargs: 18.2.0
-    optionalDependencies:
-      rolldown: 1.0.0-beta.57(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)
-      rollup: 4.64.3
-    optional: true
-
   rollup-plugin-visualizer@7.1.1(rolldown@1.2.13)(rollup@4.64.3):
     dependencies:
       open: 11.0.4
@@ -12998,6 +13019,8 @@ snapshots:
       - supports-color
 
   set-cookie-parser@3.1.0: {}
+
+  set-cookie-parser@3.1.3: {}
 
   setprototypeof@1.2.0: {}
 
@@ -13398,7 +13421,7 @@ snapshots:
     optionalDependencies:
       magic-string: 1.4.3
       rolldown: 1.2.13
-      unplugin: 3.4.0(esbuild@0.28.2)(rolldown@1.0.0-beta.57(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0))(rollup@4.64.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))
+      unplugin: 3.4.0(esbuild@0.28.2)(rolldown@1.2.13)(rollup@4.64.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))
 
   undici@7.24.8: {}
 
@@ -13411,23 +13434,6 @@ snapshots:
   unhead@2.1.13:
     dependencies:
       hookable: 6.1.1
-
-  unhead@3.4.2(esbuild@0.28.2)(rolldown@1.0.0-beta.57(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0))(rollup@4.64.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3)):
-    dependencies:
-      hookable: 6.1.2
-      unplugin: 3.4.0(esbuild@0.28.2)(rolldown@1.0.0-beta.57(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0))(rollup@4.64.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3))
-    optionalDependencies:
-      vite: 8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3)
-    transitivePeerDependencies:
-      - '@farmfe/core'
-      - '@rsbuild/core'
-      - '@rspack/core'
-      - bun-types-no-globals
-      - esbuild
-      - rolldown
-      - rollup
-      - unloader
-      - webpack
 
   unhead@3.4.2(esbuild@0.28.2)(rolldown@1.2.13)(rollup@4.64.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3)):
     dependencies:
@@ -13552,17 +13558,6 @@ snapshots:
       picomatch: 4.0.7
       webpack-virtual-modules: 0.6.2
 
-  unplugin@3.4.0(esbuild@0.28.2)(rolldown@1.0.0-beta.57(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0))(rollup@4.64.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3)):
-    dependencies:
-      '@jridgewell/remapping': 2.3.5
-      picomatch: 4.0.7
-      webpack-virtual-modules: 0.6.2
-    optionalDependencies:
-      esbuild: 0.28.2
-      rolldown: 1.0.0-beta.57(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)
-      rollup: 4.64.3
-      vite: 8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3)
-
   unplugin@3.4.0(esbuild@0.28.2)(rolldown@1.2.13)(rollup@4.64.3)(vite@8.3.4(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.21.0)(yaml@2.8.3)):
     dependencies:
       '@jridgewell/remapping': 2.3.5
@@ -13607,7 +13602,7 @@ snapshots:
     dependencies:
       rolldown: 1.0.0-rc.17
 
-  unstorage@1.17.5(db0@0.3.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.28.16)(postgres@3.4.9)))(ioredis@5.10.1):
+  unstorage@1.17.5(db0@0.3.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.29.6)(postgres@3.4.9)))(ioredis@5.10.1):
     dependencies:
       anymatch: 3.1.3
       chokidar: 5.0.0
@@ -13618,7 +13613,7 @@ snapshots:
       ofetch: 1.5.1
       ufo: 1.6.4
     optionalDependencies:
-      db0: 0.3.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.28.16)(postgres@3.4.9))
+      db0: 0.3.4(@electric-sql/pglite@0.4.5)(drizzle-orm@0.45.2(@cloudflare/workers-types@4.20260426.1)(@electric-sql/pglite@0.4.5)(kysely@0.29.6)(postgres@3.4.9))
       ioredis: 5.10.1
 
   untun@0.2.2: {}
