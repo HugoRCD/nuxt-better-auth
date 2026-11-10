@@ -17,7 +17,7 @@
     "@better-auth/infra": "^0.4.27",
     "@electric-sql/pglite": "^0.5.15",
     "@iconify-json/heroicons": "^1.2.3",
-    "@iconify-json/lucide": "^1.2.151",
+    "@iconify-json/lucide": "^1.2.152",
     "@iconify-json/simple-icons": "^1.2.101",
     "@nuxt/ui": "^4.12.0",
     "@nuxthub/core": "^0.10.12",
